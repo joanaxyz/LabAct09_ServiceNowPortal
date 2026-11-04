@@ -1,0 +1,19 @@
+<section class="mf-hero" aria-labelledby="mf-hero-title">
+  <div class="mf-hero-inner">
+    <div class="mf-hero-copy">
+      <span class="mf-eyebrow">LABORATORY 09</span>
+      <h1 id="mf-hero-title">How can<br>we help?</h1>
+    </div>
+    <div class="mf-hero-search">
+      <form id="mf-search" class="mf-search" ng-submit="c.search()" role="search" aria-label="Search services and articles">
+        <label class="mf-search-label" for="mf-query">Find a service or a help article</label>
+        <div class="mf-search-field">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <input id="mf-query" name="q" type="search" ng-model="c.query" placeholder="Search the portal" maxlength="120" autocomplete="off" required>
+          <button type="submit" ng-disabled="c.searching" aria-label="Search services and articles">Search</button>
+        </div>
+      </form>
+      <div class="mf-hero-links"><a ng-href="{{c.data.catalogUrl}}">Browse services <span aria-hidden="true">↗</span></a><a ng-href="{{c.data.knowledgeUrl}}">Knowledge base <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </div>
+</section>

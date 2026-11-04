@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-04T15:40:58.565Z",
+  "status": "PASS",
+  "file": "C:\\Users\\Joana\\Lab09-ServicePortal\\output\\GAKO_JoanaCarla Hello World Portal.xml",
+  "bytes": 164747,
+  "sha256": "6a586b8b6072069340cd48e5f0aae4850fb9efb9e09665c1e9f6c7aa3eaf869b",
+  "customerUpdates": 46,
+  "updateSets": [
+    {
+      "name": "GAKO_JoanaCarla Hello World Portal",
+      "sourceSysId": "82b45c2e2f5453108b2f298a6fa4e34c",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "customerUpdates": 46
+    }
+  ],
+  "checks": [
+    "One native Update Set with the exact classroom name",
+    "All exported payloads equal audited on-instance metadata",
+    "3 actual containers and 6 direct instances included",
+    "One original logo and its chunks match source byte-for-byte via payload equality",
+    "No movie image binaries or active image properties; four retired properties have DELETE actions only",
+    "Every customer update matches its set application scope",
+    "No tickets, users, catalog items, knowledge articles or native table definitions seeded"
+  ],
+  "transportTest": "Not imported/committed to a second instance"
+}

@@ -1,0 +1,574 @@
+{
+  "checkedAt": "2026-11-04T13:27:53.728Z",
+  "sdk": "4.14.0",
+  "instance": "https://dev431102.service-now.com",
+  "mode": "deployed",
+  "checks": {
+    "portal": {
+      "table": "sp_portal",
+      "query": "url_suffix=gako_lab09",
+      "fields": "sys_id,title,url_suffix,homepage,theme,default,sys_scope",
+      "records": [
+        {
+          "sys_id": "2c0bf7f909364e16927cb72cbbd4a090",
+          "default": "false",
+          "url_suffix": "gako_lab09",
+          "theme": "daa67a9829e54159b964de395b538acd",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "title": "LAB09 Service Portal",
+          "homepage": "e11f9468c0a4499d9ea3771962bfae2d"
+        }
+      ]
+    },
+    "home": {
+      "table": "sp_page",
+      "query": "id=gako_lab09_home",
+      "fields": "sys_id,id,title,public,sys_scope",
+      "records": [
+        {
+          "sys_id": "e11f9468c0a4499d9ea3771962bfae2d",
+          "public": "false",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "gako_lab09_home",
+          "title": "LAB09 Service Portal"
+        }
+      ]
+    },
+    "widgetIdentities": {
+      "table": "sp_widget",
+      "query": "idINx_lab09_hello_worl_midnight_hero,x_lab09_hello_worl_midnight_announcements,x_lab09_hello_worl_midnight_catalog,x_lab09_hello_worl_midnight_knowledge,x_lab09_hello_worl_midnight_requests,x_lab09_hello_worl_midnight_support,x_lab09_hello_worl_midnight_header",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": [
+        {
+          "sys_id": "31a4c937a7d046aa94e65aeb6264fded",
+          "name": "LAB09 — Knowledge base",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_knowledge"
+        },
+        {
+          "sys_id": "380db8f00e7b44e6a4a18c811ccd8553",
+          "name": "LAB09 — Help",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_support"
+        },
+        {
+          "sys_id": "51b3d138ac5d4611a75f52a75679514e",
+          "name": "LAB09 — Navigation",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_header"
+        },
+        {
+          "sys_id": "a43d77f11a6b4f9caad164cf10f60d56",
+          "name": "LAB09 — Service catalog",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_catalog"
+        },
+        {
+          "sys_id": "f057ce3e04cd4ba4b2f6b32fe693d689",
+          "name": "LAB09 — My requests",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_requests"
+        },
+        {
+          "sys_id": "fcad0c3d67b54481b1d5084d4ea5f788",
+          "name": "LAB09 — Welcome and search",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_hero"
+        }
+      ]
+    },
+    "headerIdentity": {
+      "table": "sp_header_footer",
+      "query": "id=x_lab09_hello_worl_midnight_header",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": [
+        {
+          "sys_id": "51b3d138ac5d4611a75f52a75679514e",
+          "name": "LAB09 — Navigation",
+          "sys_scope": "d02a2003fd1f4a7698b9995b314584cd",
+          "id": "x_lab09_hello_worl_midnight_header"
+        }
+      ]
+    },
+    "instanceIdentities": {
+      "table": "sp_instance",
+      "query": "idINx_lab09_hello_worl_mf_hero_i,x_lab09_hello_worl_mf_announcements_i,x_lab09_hello_worl_mf_catalog_i,x_lab09_hello_worl_mf_knowledge_i,x_lab09_hello_worl_mf_requests_i,x_lab09_hello_worl_mf_support_i",
+      "fields": "sys_id,id,sp_widget,sp_column,active,order",
+      "records": [
+        {
+          "sys_id": "015ccb4cd7704a138e59c123c9b9ebe2",
+          "sp_column": "2085c47d564043fa95c7e56c2ab86a17",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_catalog_i",
+          "sp_widget": "a43d77f11a6b4f9caad164cf10f60d56",
+          "order": "100"
+        },
+        {
+          "sys_id": "08f6d943c97943cf97e1419d290c65ea",
+          "sp_column": "ee3c7666dec54accb9afac7a53b62fdb",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_announcements_i",
+          "sp_widget": "6383fc7e54c04fd1a3d07e4ec3d7d473",
+          "order": "200"
+        },
+        {
+          "sys_id": "4309350ce5a0410382ae7993cd4d4702",
+          "sp_column": "ba74c50d59ca492db8e468268e14061c",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_knowledge_i",
+          "sp_widget": "31a4c937a7d046aa94e65aeb6264fded",
+          "order": "200"
+        },
+        {
+          "sys_id": "624d0da2bde24aee9347b8254bc72077",
+          "sp_column": "ef79085b36bf4dd0996d577184807162",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_requests_i",
+          "sp_widget": "f057ce3e04cd4ba4b2f6b32fe693d689",
+          "order": "100"
+        },
+        {
+          "sys_id": "cf1c81bf4f854afd862a15ec94270665",
+          "sp_column": "c0c843c189594a73a86f17f9573d8a2f",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_support_i",
+          "sp_widget": "380db8f00e7b44e6a4a18c811ccd8553",
+          "order": "200"
+        },
+        {
+          "sys_id": "e7b914cef1794d6ca98ab31dc63bb00c",
+          "sp_column": "ee3c7666dec54accb9afac7a53b62fdb",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_hero_i",
+          "sp_widget": "fcad0c3d67b54481b1d5084d4ea5f788",
+          "order": "100"
+        }
+      ]
+    },
+    "nativeWidgets": {
+      "table": "sp_widget",
+      "query": "sys_idIN8cc0df25875023000f220cf888cb0bb5,94c300c7e777320075c2a117c2f6a9e7,200fbd96cb20020000f8d856634c9ca1,12fbe2d287330300a785940307cb0b1b,5b255672cb03020000f8d856634c9c28",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": [
+        {
+          "sys_id": "12fbe2d287330300a785940307cb0b1b",
+          "name": "Faceted Search",
+          "sys_scope": "global",
+          "id": "faceted_search"
+        },
+        {
+          "sys_id": "200fbd96cb20020000f8d856634c9ca1",
+          "name": "Homepage Search",
+          "sys_scope": "global",
+          "id": ""
+        },
+        {
+          "sys_id": "5b255672cb03020000f8d856634c9c28",
+          "name": "Simple List",
+          "sys_scope": "global",
+          "id": "widget-simple-list"
+        },
+        {
+          "sys_id": "8cc0df25875023000f220cf888cb0bb5",
+          "name": "My Requests",
+          "sys_scope": "global",
+          "id": "my-requests-v2"
+        },
+        {
+          "sys_id": "94c300c7e777320075c2a117c2f6a9e7",
+          "name": "Announcements",
+          "sys_scope": "global",
+          "id": "announcements"
+        }
+      ]
+    },
+    "nativePages": {
+      "table": "sp_page",
+      "query": "idINsc_home,sc_category,sc_cat_item,kb_view,kb_article,search,my_requests,ticket,login,404",
+      "fields": "sys_id,id,title,public,sys_scope",
+      "records": [
+        {
+          "sys_id": "07261a2147132100ba13a5554ee49092",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_category",
+          "title": "Catalog Categories"
+        },
+        {
+          "sys_id": "3c2c9063cb11020000f8d856634c9c1f",
+          "public": "true",
+          "sys_scope": "global",
+          "id": "404",
+          "title": "Not Found"
+        },
+        {
+          "sys_id": "4ab7a3a5875023000f220cf888cb0bec",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "my_requests",
+          "title": "Requests"
+        },
+        {
+          "sys_id": "6995a144cb11120000f8d856634c9c25",
+          "public": "true",
+          "sys_scope": "global",
+          "id": "login",
+          "title": "Login"
+        },
+        {
+          "sys_id": "84af292247132100ba13a5554ee4909e",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "ticket",
+          "title": "Ticket Form"
+        },
+        {
+          "sys_id": "87466b63c3223100c8b837659bba8feb",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "search",
+          "title": "Search"
+        },
+        {
+          "sys_id": "9f12251147132100ba13a5554ee490f4",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_cat_item",
+          "title": "Catalog Item"
+        },
+        {
+          "sys_id": "db9fcab847101200ba13a5554ee490cf",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "kb_view",
+          "title": "Knowledge Base"
+        },
+        {
+          "sys_id": "dea5792147132100ba13a5554ee4902d",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "kb_article",
+          "title": "Knowledge Base"
+        },
+        {
+          "sys_id": "fe87a11147132100ba13a5554ee490b9",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_home",
+          "title": "Catalog Home"
+        }
+      ]
+    },
+    "nativeThemes": {
+      "table": "sp_theme",
+      "query": "sys_idIN281507c44317d210ca4c1f425db8f2fd,79315153cb33310000f8d856634c9c4b",
+      "fields": "sys_id,name",
+      "records": [
+        {
+          "sys_id": "281507c44317d210ca4c1f425db8f2fd",
+          "name": "Coral"
+        },
+        {
+          "sys_id": "79315153cb33310000f8d856634c9c4b",
+          "name": "Stock"
+        }
+      ]
+    },
+    "catalog": {
+      "table": "sc_catalog",
+      "query": "sys_id=e0d08b13c3330100c8b837659bba8fb4",
+      "fields": "sys_id,title,active",
+      "records": [
+        {
+          "sys_id": "e0d08b13c3330100c8b837659bba8fb4",
+          "active": "true",
+          "title": "Service Catalog"
+        }
+      ]
+    },
+    "knowledge": {
+      "table": "kb_knowledge_base",
+      "query": "sys_id=a7e8a78bff0221009b20ffffffffff17",
+      "fields": "sys_id,title,active",
+      "records": [
+        {
+          "sys_id": "a7e8a78bff0221009b20ffffffffff17",
+          "active": "true",
+          "title": "IT"
+        }
+      ]
+    },
+    "searchSources": {
+      "table": "sp_search_source",
+      "query": "sys_idINc6170ae86721220023c82e08f585efe6,c96eb1686721220023c82e08f585efff",
+      "fields": "sys_id,id,name",
+      "records": [
+        {
+          "sys_id": "c6170ae86721220023c82e08f585efe6",
+          "name": "Knowledge Bases",
+          "id": "kb"
+        },
+        {
+          "sys_id": "c96eb1686721220023c82e08f585efff",
+          "name": "Catalogs",
+          "id": "sc"
+        }
+      ]
+    },
+    "artworkProperties": {
+      "table": "sys_properties",
+      "query": "nameINx_lab09_hello_worl.midnight.art.hero,x_lab09_hello_worl.midnight.art.mystery,x_lab09_hello_worl.midnight.art.drama,x_lab09_hello_worl.midnight.art.scifi",
+      "fields": "sys_id,name,value",
+      "records": []
+    },
+    "stylesheetIdentity": {
+      "table": "sp_css",
+      "query": "name=x_lab09_hello_worl_midnight_styles",
+      "fields": "sys_id,name",
+      "records": [
+        {
+          "sys_id": "245fb718491e491aba19b8ae36daa117",
+          "name": "x_lab09_hello_worl_midnight_styles"
+        }
+      ]
+    },
+    "existingUpdateSet": {
+      "table": "sys_update_set",
+      "query": "name=GAKO_JoanaCarla Hello World Portal",
+      "fields": "sys_id,name,state,application",
+      "records": [
+        {
+          "sys_id": "7e37b29a2f5813108b2f298a6fa4e303",
+          "application": "global",
+          "name": "GAKO_JoanaCarla Hello World Portal",
+          "state": "in progress"
+        },
+        {
+          "sys_id": "9ec5e3122fdc13108b2f298a6fa4e3b3",
+          "application": "d02a2003fd1f4a7698b9995b314584cd",
+          "name": "GAKO_JoanaCarla Hello World Portal",
+          "state": "complete"
+        }
+      ]
+    },
+    "existingCapturedMetadata": {
+      "table": "sys_update_xml",
+      "query": "update_set=7e37b29a2f5813108b2f298a6fa4e303",
+      "fields": "sys_id,name,type,target_name,sys_updated_on",
+      "records": [
+        {
+          "sys_id": "e66123922fdc13108b2f298a6fa4e3e6",
+          "target_name": "kb_knowledge",
+          "name": "sys_scope_privilege_226123922fdc13108b2f298a6fa4e3e4",
+          "sys_updated_on": "2026-11-04 11:50:20",
+          "type": "Cross scope privilege"
+        },
+        {
+          "sys_id": "a26123922fdc13108b2f298a6fa4e3d9",
+          "target_name": "Glide API: properties",
+          "name": "sys_scope_privilege_2e6123922fdc13108b2f298a6fa4e3d3",
+          "sys_updated_on": "2026-11-04 11:50:20",
+          "type": "Cross scope privilege"
+        },
+        {
+          "sys_id": "f26123922fdc13108b2f298a6fa4e3fb",
+          "target_name": "kb_knowledge_base",
+          "name": "sys_scope_privilege_3e6123922fdc13108b2f298a6fa4e3f8",
+          "sys_updated_on": "2026-11-04 11:50:20",
+          "type": "Cross scope privilege"
+        },
+        {
+          "sys_id": "3a6123922fdc13108b2f298a6fa4e3ea",
+          "target_name": "ScopedGlideElement",
+          "name": "sys_scope_privilege_626123922fdc13108b2f298a6fa4e3e8",
+          "sys_updated_on": "2026-11-04 11:50:20",
+          "type": "Cross scope privilege"
+        },
+        {
+          "sys_id": "ba6123922fdc13108b2f298a6fa4e3ff",
+          "target_name": "GlideRecordSecure.getValue",
+          "name": "sys_scope_privilege_f26123922fdc13108b2f298a6fa4e3fd",
+          "sys_updated_on": "2026-11-04 11:50:20",
+          "type": "Cross scope privilege"
+        }
+      ]
+    },
+    "protectedPortals": {
+      "table": "sp_portal",
+      "query": "sys_idIN70cd9f3b734b13001fdae9c54cf6a72f,81b75d3147032100ba13a5554ee4902b",
+      "fields": "sys_id,title,url_suffix,homepage,theme,default,sys_updated_on",
+      "records": [
+        {
+          "sys_id": "70cd9f3b734b13001fdae9c54cf6a72f",
+          "default": "true",
+          "url_suffix": "esc",
+          "theme": "ee2e485f9c0b5250f877097911a1a148",
+          "sys_updated_on": "2026-10-06 20:29:05",
+          "title": "Employee Center",
+          "homepage": "0987d9aa53331210b8f2ddeeff7b129d"
+        },
+        {
+          "sys_id": "81b75d3147032100ba13a5554ee4902b",
+          "default": "false",
+          "url_suffix": "sp",
+          "theme": "281507c44317d210ca4c1f425db8f2fd",
+          "sys_updated_on": "2026-10-06 20:33:04",
+          "title": "Service Portal ",
+          "homepage": "46cc384147532100ba13a5554ee49009"
+        }
+      ]
+    },
+    "containers": {
+      "table": "sp_container",
+      "query": "sp_page=e11f9468c0a4499d9ea3771962bfae2d",
+      "fields": "sys_id,name,sp_page,order",
+      "records": [
+        {
+          "sys_id": "22247889d01e4831b0c2b9318d53e4ea",
+          "name": "Services & knowledge",
+          "sp_page": "e11f9468c0a4499d9ea3771962bfae2d",
+          "order": "200"
+        },
+        {
+          "sys_id": "43ccb17374d54ee28a67b0eba24a8ae2",
+          "name": "Requests & help",
+          "sp_page": "e11f9468c0a4499d9ea3771962bfae2d",
+          "order": "300"
+        },
+        {
+          "sys_id": "e692ac3d036b4970834e4416f281b0ce",
+          "name": "Welcome & announcements",
+          "sp_page": "e11f9468c0a4499d9ea3771962bfae2d",
+          "order": "100"
+        }
+      ]
+    },
+    "rows": {
+      "table": "sp_row",
+      "query": "sp_containerIN22247889d01e4831b0c2b9318d53e4ea,43ccb17374d54ee28a67b0eba24a8ae2,e692ac3d036b4970834e4416f281b0ce",
+      "fields": "sys_id,sp_container,order",
+      "records": [
+        {
+          "sys_id": "657c1e8f59cb45e595ac8092f076466f",
+          "sp_container": "43ccb17374d54ee28a67b0eba24a8ae2",
+          "order": "100"
+        },
+        {
+          "sys_id": "7e042718b5174ed08731c570c14c0bb7",
+          "sp_container": "22247889d01e4831b0c2b9318d53e4ea",
+          "order": "100"
+        },
+        {
+          "sys_id": "db34ec029b804d6dbca3a0b101236124",
+          "sp_container": "e692ac3d036b4970834e4416f281b0ce",
+          "order": "100"
+        }
+      ]
+    },
+    "columns": {
+      "table": "sp_column",
+      "query": "sp_rowIN657c1e8f59cb45e595ac8092f076466f,7e042718b5174ed08731c570c14c0bb7,db34ec029b804d6dbca3a0b101236124",
+      "fields": "sys_id,sp_row,order",
+      "records": [
+        {
+          "sys_id": "2085c47d564043fa95c7e56c2ab86a17",
+          "sp_row": "7e042718b5174ed08731c570c14c0bb7",
+          "order": "100"
+        },
+        {
+          "sys_id": "ba74c50d59ca492db8e468268e14061c",
+          "sp_row": "7e042718b5174ed08731c570c14c0bb7",
+          "order": "200"
+        },
+        {
+          "sys_id": "c0c843c189594a73a86f17f9573d8a2f",
+          "sp_row": "657c1e8f59cb45e595ac8092f076466f",
+          "order": "200"
+        },
+        {
+          "sys_id": "ee3c7666dec54accb9afac7a53b62fdb",
+          "sp_row": "db34ec029b804d6dbca3a0b101236124",
+          "order": "100"
+        },
+        {
+          "sys_id": "ef79085b36bf4dd0996d577184807162",
+          "sp_row": "657c1e8f59cb45e595ac8092f076466f",
+          "order": "100"
+        }
+      ]
+    },
+    "instances": {
+      "table": "sp_instance",
+      "query": "sp_columnIN2085c47d564043fa95c7e56c2ab86a17,ba74c50d59ca492db8e468268e14061c,c0c843c189594a73a86f17f9573d8a2f,ee3c7666dec54accb9afac7a53b62fdb,ef79085b36bf4dd0996d577184807162",
+      "fields": "sys_id,id,sp_widget,sp_column,active,order",
+      "records": [
+        {
+          "sys_id": "015ccb4cd7704a138e59c123c9b9ebe2",
+          "sp_column": "2085c47d564043fa95c7e56c2ab86a17",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_catalog_i",
+          "sp_widget": "a43d77f11a6b4f9caad164cf10f60d56",
+          "order": "100"
+        },
+        {
+          "sys_id": "08f6d943c97943cf97e1419d290c65ea",
+          "sp_column": "ee3c7666dec54accb9afac7a53b62fdb",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_announcements_i",
+          "sp_widget": "6383fc7e54c04fd1a3d07e4ec3d7d473",
+          "order": "200"
+        },
+        {
+          "sys_id": "4309350ce5a0410382ae7993cd4d4702",
+          "sp_column": "ba74c50d59ca492db8e468268e14061c",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_knowledge_i",
+          "sp_widget": "31a4c937a7d046aa94e65aeb6264fded",
+          "order": "200"
+        },
+        {
+          "sys_id": "624d0da2bde24aee9347b8254bc72077",
+          "sp_column": "ef79085b36bf4dd0996d577184807162",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_requests_i",
+          "sp_widget": "f057ce3e04cd4ba4b2f6b32fe693d689",
+          "order": "100"
+        },
+        {
+          "sys_id": "cf1c81bf4f854afd862a15ec94270665",
+          "sp_column": "c0c843c189594a73a86f17f9573d8a2f",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_support_i",
+          "sp_widget": "380db8f00e7b44e6a4a18c811ccd8553",
+          "order": "200"
+        },
+        {
+          "sys_id": "e7b914cef1794d6ca98ab31dc63bb00c",
+          "sp_column": "ee3c7666dec54accb9afac7a53b62fdb",
+          "active": "true",
+          "id": "x_lab09_hello_worl_mf_hero_i",
+          "sp_widget": "fcad0c3d67b54481b1d5084d4ea5f788",
+          "order": "100"
+        }
+      ]
+    },
+    "containerCounts": [
+      {
+        "name": "Services & knowledge",
+        "sys_id": "22247889d01e4831b0c2b9318d53e4ea",
+        "activeWidgetInstances": 2
+      },
+      {
+        "name": "Requests & help",
+        "sys_id": "43ccb17374d54ee28a67b0eba24a8ae2",
+        "activeWidgetInstances": 2
+      },
+      {
+        "name": "Welcome & announcements",
+        "sys_id": "e692ac3d036b4970834e4416f281b0ce",
+        "activeWidgetInstances": 2
+      }
+    ],
+    "realUrl": "https://dev431102.service-now.com/gako_lab09?id=gako_lab09_home"
+  }
+}

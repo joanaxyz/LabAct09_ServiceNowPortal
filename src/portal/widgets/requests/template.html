@@ -1,0 +1,19 @@
+<section id="mf-backstage" class="mf-card mf-requests" aria-labelledby="mf-requests-title">
+  <div class="mf-requests-heading">
+    <div class="mf-requests-title-group"><h2 id="mf-requests-title">My requests</h2></div>
+    <a class="mf-refresh" ng-href="{{c.data.requestsUrl}}" aria-label="View all requests">View all <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="mf-request-board">
+    <p class="mf-preview-note" ng-if="c.data.localPreview">Requests load on ServiceNow.</p>
+    <p ng-if="c.data.requestsError" class="mf-request-error" role="status">{{c.data.requestsError}}</p>
+    <sp-widget ng-if="c.data.requestsWidget" widget="c.data.requestsWidget"></sp-widget>
+    <div ng-if="!c.data.requestsWidget">
+      <a class="mf-request-row" ng-repeat="request in c.data.requests track by $index" ng-href="{{request.url}}"><span>{{request.number}}</span><strong>{{request.title}}</strong><span>{{request.state}}</span></a>
+      <div class="mf-requests-empty" ng-if="!c.data.requests.length &amp;&amp; !c.data.requestsError">
+        <div class="mf-empty-icon" aria-hidden="true"><span class="glyphicon glyphicon-inbox"></span></div>
+        <h3>{{c.data.authenticated ? 'No requests to show.' : 'Sign in to view your requests.'}}</h3>
+        <a class="mf-text-link" ng-if="c.data.requestsUrl" ng-href="{{c.data.requestsUrl}}">{{c.data.authenticated ? 'View my requests' : 'Sign in'}} <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>

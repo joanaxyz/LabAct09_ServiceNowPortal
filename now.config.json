@@ -1,0 +1,12 @@
+{
+    "scope": "x_lab09_hello_worl",
+    "scopeId": "d02a2003fd1f4a7698b9995b314584cd",
+    "name": "GAKO_JoanaCarla Hello World Portal",
+    "dependencies": {
+        "global": {
+            "tables": [
+                "sp_css"
+            ]
+        }
+    }
+}

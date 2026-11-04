@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-04T15:43:13.198Z",
+  "status": "PASS",
+  "testedUser": "Authenticated admin",
+  "search": {
+    "results": 14,
+    "title": "email Search",
+    "url": "https://dev431102.service-now.com/gako_lab09?id=search&spa=1&q=email"
+  },
+  "catalog": {
+    "laptop": "?id=sc_cat_item&sys_id=04b7e94b4f7b4200086eeed18110c7fd",
+    "title": "Catalog Home",
+    "url": "https://dev431102.service-now.com/gako_lab09?id=sc_home"
+  },
+  "item": {
+    "orderNow": true,
+    "requirements": true,
+    "title": "Standard Laptop",
+    "url": "https://dev431102.service-now.com/gako_lab09?id=sc_cat_item&sys_id=04b7e94b4f7b4200086eeed18110c7fd"
+  },
+  "article": {
+    "bodyVisible": true,
+    "title": "IT - What are phishing scams and how can I avoid them?",
+    "url": "https://dev431102.service-now.com/gako_lab09/en/what-are-phishing-scams-and-how-can-i-avoid-them?id=kb_article&sys_id=3020c9b1474321009db4b5b08b9a712d"
+  },
+  "returnHome": {
+    "containers": 3,
+    "url": "https://dev431102.service-now.com/gako_lab09?id=gako_lab09_home"
+  },
+  "noOrderSubmitted": true
+}

@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-11-04T15:32:19.3828720Z",
+  "status": "PASS",
+  "deployed": true,
+  "url": "https://dev431102.service-now.com/gako_lab09?id=gako_lab09_home",
+  "testedUser": "Authenticated admin",
+  "viewports": [
+    {
+      "containers": [
+        {
+          "class": "ng-scope mf-container-opening ce692ac3d036b4970834e4416f281b0ce",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-discover c22247889d01e4831b0c2b9318d53e4ea",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-backstage c43ccb17374d54ee28a67b0eba24a8ae2",
+          "instances": 2
+        }
+      ],
+      "movieContent": false,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "containers": [
+        {
+          "class": "ng-scope mf-container-opening ce692ac3d036b4970834e4416f281b0ce",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-discover c22247889d01e4831b0c2b9318d53e4ea",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-backstage c43ccb17374d54ee28a67b0eba24a8ae2",
+          "instances": 2
+        }
+      ],
+      "movieContent": false,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "containers": [
+        {
+          "class": "ng-scope mf-container-opening ce692ac3d036b4970834e4416f281b0ce",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-discover c22247889d01e4831b0c2b9318d53e4ea",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-backstage c43ccb17374d54ee28a67b0eba24a8ae2",
+          "instances": 2
+        }
+      ],
+      "movieContent": false,
+      "scrollWidth": 705,
+      "width": 720
+    },
+    {
+      "containers": [
+        {
+          "class": "ng-scope mf-container-opening ce692ac3d036b4970834e4416f281b0ce",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-discover c22247889d01e4831b0c2b9318d53e4ea",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-backstage c43ccb17374d54ee28a67b0eba24a8ae2",
+          "instances": 2
+        }
+      ],
+      "movieContent": false,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "containers": [
+        {
+          "class": "ng-scope mf-container-opening ce692ac3d036b4970834e4416f281b0ce",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-discover c22247889d01e4831b0c2b9318d53e4ea",
+          "instances": 2
+        },
+        {
+          "class": "ng-scope mf-container-backstage c43ccb17374d54ee28a67b0eba24a8ae2",
+          "instances": 2
+        }
+      ],
+      "movieContent": false,
+      "scrollWidth": 305,
+      "width": 320
+    }
+  ],
+  "mobileMenu": "true",
+  "keyboardFaq": "true",
+  "closedRequests": {
+    "filter": "string:close",
+    "requestLinks": 12
+  },
+  "runtime": {
+    "announcements": "Announcements\n\nNo announcements right now.",
+    "articles": 3,
+    "errors": [],
+    "nativeRequests": true,
+    "reduced": true,
+    "requestFilter": "Lab 8.1.1"
+  },
+  "screenshotNote": "Real native requests filtered to the existing Lab 8.1.1 request for public evidence. Internal scroll wrapper expanded only in the browser for full-page capture, then restored."
+}

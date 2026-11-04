@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-04 15:39:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<application_name>GAKO_JoanaCarla Hello World Portal</application_name>
+<application_scope>x_lab09_hello_worl</application_scope>
+<application_version>0.0.1</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Laboratory 09 service portal: sleek navy and blue design, original logo, three real containers and six active widget instances, native search, catalog, knowledge, requests and help. No demo data.</description>
+<inserted/>
+<name>GAKO_JoanaCarla Hello World Portal</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>82b45c2e2f5453108b2f298a6fa4e34c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>23c598ee2f5453108b2f298a6fa4e3c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_22247889d01e4831b0c2b9318d53e4ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>mf-container-discover</class_name><container_class_name>mf-page</container_class_name><name>Services &amp; knowledge</name><order>200</order><semantic_tag/><sp_page display_value="gako_lab09_home">e11f9468c0a4499d9ea3771962bfae2d</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>22247889d01e4831b0c2b9318d53e4ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services &amp; knowledge</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_container_22247889d01e4831b0c2b9318d53e4ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on><title/><width>container-fluid</width></sp_container></record_update>]]></payload>
+<payload_hash>796741857</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>23c598ee2f5453108b2f298a6fa4e3c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>Services &amp; knowledge</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>6ae02f12d6dc131045b1a2ed14d0b953</update_guid>
+<update_guid_history>6ae02f12d6dc131045b1a2ed14d0b953:1554851588</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_theme_daa67a9829e54159b964de395b538acd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>/* Bootstrap 3 variables for the dedicated service portal and native pages. */
+$body-bg: #f6f8fc;
+$text-color: #182942;
+$brand-primary: #315fe9;
+$link-color: #315fe9;
+$link-hover-color: #1746b4;
+$font-family-sans-serif: "Segoe UI", Arial, sans-serif;
+$font-size-base: 14px;
+$headings-font-family: "Segoe UI", Arial, sans-serif;
+$headings-font-weight: 600;
+$panel-bg: #ffffff;
+$panel-inner-border: #dce4ef;
+$panel-default-heading-bg: #f5f8fc;
+$panel-default-text: #172c49;
+$panel-default-border: #dce4ef;
+$input-bg: #ffffff;
+$input-color: #172c49;
+$input-border: #cbd6e5;
+$input-color-placeholder: #65758b;
+$list-group-bg: #ffffff;
+$list-group-border: #dce4ef;
+$list-group-hover-bg: #f3f7fd;
+$table-bg-hover: #f5f8fc;
+$well-bg: #edf3fd;
+$well-border: #dce4ef;
+$dropdown-bg: #ffffff;
+$dropdown-link-color: #172c49;
+$dropdown-link-hover-bg: #edf3fd;
+$dropdown-link-hover-color: #1746b4;
+$modal-content-bg: #ffffff;
+$modal-header-border-color: #dce4ef;
+$modal-footer-border-color: #dce4ef;
+$nav-tabs-link-hover-border-color: #dce4ef;
+$nav-tabs-active-link-hover-bg: #ffffff;
+$nav-tabs-active-link-hover-color: #172c49;
+$nav-tabs-active-link-hover-border-color: #dce4ef;
+$nav-link-hover-bg: #edf3fd;
+</css_variables><footer/><footer_fixed>false</footer_fixed><header display_value="LAB09 — Navigation">51b3d138ac5d4611a75f52a75679514e</header><matching_now_experience_theme/><name>LAB09 — Service Portal theme</name><navbar_fixed>false</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>daa67a9829e54159b964de395b538acd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>LAB09 — Service Portal theme</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_theme_daa67a9829e54159b964de395b538acd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 15:05:57</sys_updated_on><turn_off_scss_compilation>false</turn_off_scss_compilation></sp_theme></record_update>]]></payload>
+<payload_hash>758834858</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>23c598ee2f5453108b2f298a6fa4e3df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732924f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Service Portal theme</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>083e44ee3c14531058ab998162635946</update_guid>
+<update_guid_history>083e44ee3c14531058ab998162635946:758834858,b6e02f12b2dc13100a6392698bba8bd9:0</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_3e6123922fdc13108b2f298a6fa4e3f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:50:20</sys_created_on><sys_id>3e6123922fdc13108b2f298a6fa4e3f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kb_knowledge_base</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_scope_privilege_3e6123922fdc13108b2f298a6fa4e3f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:50:20</sys_updated_on><target_name>kb_knowledge_base</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>422307399</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>23c598ee2f5453108b2f298a6fa4e3e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>kb_knowledge_base</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>3e61239251dc131009dcb32bd521a2fa</update_guid>
+<update_guid_history>3e61239251dc131009dcb32bd521a2fa:422307399</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_95267df8a9244d99955190310f133e58</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><lazy_load>false</lazy_load><name>LAB09 — Shared styles</name><rtl_css_file_url/><source>local</source><sp_css display_value="x_lab09_hello_worl_midnight_styles">245fb718491e491aba19b8ae36daa117</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>95267df8a9244d99955190310f133e58</sys_id><sys_mod_count>1</sys_mod_count><sys_name>LAB09 — Shared styles</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_css_include_95267df8a9244d99955190310f133e58</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 15:05:57</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>-715045342</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>27c598ee2f5453108b2f298a6fa4e3cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73292290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Shared styles</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>403e44eee5145310de04338e7fa64a30</update_guid>
+<update_guid_history>403e44eee5145310de04338e7fa64a30:-715045342,b6e02f12d6dc1310d420d55c7eacbf66:-1510691667</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_a43d77f11a6b4f9caad164cf10f60d56</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+  var c = this;
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Opens the native service catalog.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_catalog&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Service catalog&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    data.catalogUrl = '?id=sc_home';
+    data.requestsUrl = '?id=my_requests';
+    // Ordering and eligibility remain owned by the verified native catalog pages.
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;a43d77f11a6b4f9caad164cf10f60d56&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Service catalog&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_a43d77f11a6b4f9caad164cf10f60d56&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section id="mf-discover" class="mf-card mf-catalog-card" aria-labelledby="mf-discover-title"&gt;
+  &lt;div class="mf-catalog-top"&gt;&lt;span class="mf-panel-label"&gt;SERVICE CATALOG&lt;/span&gt;&lt;span class="mf-catalog-symbol" aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/div&gt;
+  &lt;h2 id="mf-discover-title"&gt;Request a service&lt;/h2&gt;
+  &lt;p&gt;Equipment, software, access, and more.&lt;/p&gt;
+  &lt;div class="mf-catalog-actions"&gt;
+    &lt;a class="mf-button" ng-href="{{c.data.catalogUrl}}"&gt;Browse catalog &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+    &lt;a class="mf-catalog-secondary" ng-href="{{c.data.requestsUrl}}"&gt;Track a request &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-648692689</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>27c598ee2f5453108b2f298a6fa4e3e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73292420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Service catalog</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>943e44eee11453100d65d059f3e7e25e</update_guid>
+<update_guid_history>943e44eee11453100d65d059f3e7e25e:-648692689,7ee02f12dddc1310c3f674bd62e703ea:-244671225</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_portal_search_source_114a12e29fae4999936de3e618bedb04</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="LAB09 Service Portal">2c0bf7f909364e16927cb72cbbd4a090</sp_portal><sp_search_source display_value="Catalogs">c96eb1686721220023c82e08f585efff</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:08</sys_created_on><sys_id>114a12e29fae4999936de3e618bedb04</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>m2m_sp_portal_search_source_114a12e29fae4999936de3e618bedb04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:08</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+<payload_hash>341463956</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2bc598ee2f5453108b2f298a6fa4e3c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732900e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Search Source</type>
+<update_domain>global</update_domain>
+<update_guid>2ee02f12e7dc1310fdd1014ee042610f</update_guid>
+<update_guid_history>2ee02f12e7dc1310fdd1014ee042610f:-1142644245</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_624d0da2bde24aee9347b8254bc72077</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_requests_i&lt;/id&gt;&lt;order&gt;100&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="100"&gt;ef79085b36bf4dd0996d577184807162&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — My requests"&gt;f057ce3e04cd4ba4b2f6b32fe693d689&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;624d0da2bde24aee9347b8254bc72077&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_624d0da2bde24aee9347b8254bc72077&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=624d0da2bde24aee9347b8254bc72077"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-315982879</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2bc598ee2f5453108b2f298a6fa4e3da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732915a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>d2a4235a33dc1310636231897ab0d69c</update_guid>
+<update_guid_history>d2a4235a33dc1310636231897ab0d69c:-1089701983,fee02f125fdc13109f5af55e81933499:-168760634</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_6968217633ae4655bc2ca0442fc99eb3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[{
+  "name": "lab09-hello-world-portal",
+  "version": "0.0.1",
+  "description": "LAB09 Service Portal for services, knowledge and request tracking",
+  "license": "UNLICENSED",
+  "imports": {
+    "#now:*": "./@types/servicenow/fluent/*/index.js"
+  },
+  "scripts": {
+    "build": "now-sdk build",
+    "preview": "node scripts/preview.mjs",
+    "verify:local": "node scripts/verify-local.mjs",
+    "audit:preflight": "node scripts/instance-audit.mjs preflight",
+    "audit:deployed": "node scripts/instance-audit.mjs deployed",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/glide": "27.0.5",
+    "@servicenow/sdk": "4.14.0",
+    "angular": "1.8.3",
+    "bootstrap": "3.4.1"
+  }
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;6968217633ae4655bc2ca0442fc99eb3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_6968217633ae4655bc2ca0442fc99eb3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 11:48:10&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>911562837</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2bc598ee2f5453108b2f298a6fa4e3e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_ba74c50d59ca492db8e468268e14061c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>200</order><semantic_tag/><size>6</size><size_lg/><size_sm>12</size_sm><size_xs>12</size_xs><sp_row display_value="100">7e042718b5174ed08731c570c14c0bb7</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 13:24:06</sys_created_on><sys_id>ba74c50d59ca492db8e468268e14061c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>200</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_column_ba74c50d59ca492db8e468268e14061c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 13:24:06</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>686145938</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2fc598ee2f5453108b2f298a6fa4e3c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732918e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>200</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_portal_2c0bf7f909364e16927cb72cbbd4a090</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><alternate_portal/><communication_channels/><css_variables/><dark_theme/><default>false</default><embeddable_macroponents/><enable_ais>false</enable_ais><enable_certificate_based_authentication>false</enable_certificate_based_authentication><enable_embeddables>false</enable_embeddables><enable_favorites>false</enable_favorites><hide_portal_name>true</hide_portal_name><homepage display_value="gako_lab09_home">e11f9468c0a4499d9ea3771962bfae2d</homepage><icon/><inactive>false</inactive><kb_knowledge_base/><kb_knowledge_page display_value="kb_view">db9fcab847101200ba13a5554ee490cf</kb_knowledge_page><login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page><logo>41ebb6a44860cb5043df1cda66fc4cd9</logo><logo_alt_text>LAB09 Service Portal</logo_alt_text><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><rtl_enabled>false</rtl_enabled><sc_catalog/><sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page><sc_category_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sc_category_page><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>2c0bf7f909364e16927cb72cbbd4a090</sys_id><sys_mod_count>1</sys_mod_count><sys_name>LAB09 Service Portal</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_portal_2c0bf7f909364e16927cb72cbbd4a090</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 15:05:57</sys_updated_on><theme display_value="LAB09 — Service Portal theme">daa67a9829e54159b964de395b538acd</theme><title>LAB09 Service Portal</title><ts_index_group/><url_suffix>gako_lab09</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=2c0bf7f909364e16927cb72cbbd4a090"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>933336</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>logo</file_name><hash>d7eb1e869c9be784ee0d10c05cdb609166912f9973d2071aab981cbda3e579cd</hash><image_height/><image_width/><size_bytes>293</size_bytes><size_compressed>204</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 15:32:04</sys_created_on><sys_id>41ebb6a44860cb5043df1cda66fc4cd9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 15:32:08</sys_updated_on><table_name>ZZ_YYsp_portal</table_name><table_sys_id>2c0bf7f909364e16927cb72cbbd4a090</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAw==</data><length>16</length><position>0</position><sys_attachment display_value="logo" sys_id="41ebb6a44860cb5043df1cda66fc4cd9">41ebb6a44860cb5043df1cda66fc4cd9</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 15:32:04</sys_created_on><sys_id>6075463d661c98ef1a4938139e05e784</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>dY9Li8MwDITv+yuE9pxajuLiLHEOe9rLXnsPzUOB9EFq7NJfX5dAH5QigcTwDcNUpzDAeTftTw7F++OPUjHGVeTVYR5UTkQqEQhxbL04LCyCdOMgfvnD2MXfw9khAUFh02Jdzd3WfzLMidWE0I/T5PA7L0zZMqq6OjZeoHX4rzXoXEzQpZTB/Gl9udN937+gTAltLNgUvoxeCwcrZpPTQ89sZi87AtMw8IKly4El4yeJsvVb1K18/XUF537pOyUBAAA=</data><length>260</length><position>1</position><sys_attachment display_value="logo" sys_id="41ebb6a44860cb5043df1cda66fc4cd9">41ebb6a44860cb5043df1cda66fc4cd9</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 15:32:04</sys_created_on><sys_id>e281ea1555f4a905481fb737708ef050</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-1408849310</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2fc598ee2f5453108b2f298a6fa4e3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 Service Portal</target_name>
+<type>Service Portal</type>
+<update_domain>global</update_domain>
+<update_guid>443e44ee4614531083421e6c249e0a40</update_guid>
+<update_guid_history>443e44ee4614531083421e6c249e0a40:-1475885562,b2e02f12bfdc131021e0cdeaff78d2c0:0</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_d50edcf0b85f4ef980978c3009012883</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>Original cinema entrance illustration</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_lab09_hello_worl.midnight.art.hero</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:11</sys_created_on><sys_id>d50edcf0b85f4ef980978c3009012883</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl.midnight.art.hero</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_properties_d50edcf0b85f4ef980978c3009012883</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:11</sys_updated_on><type>image</type><value>7f7ef4bfd2e3f48f4b6511e525415212</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=d50edcf0b85f4ef980978c3009012883"/></record_update>]]></payload>
+<payload_hash>-77621349</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>2fc598ee2f5453108b2f298a6fa4e3e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl.midnight.art.hero</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>e2e6f7ded1505310240d22a6505c243a</update_guid>
+<update_guid_history>e2e6f7ded1505310240d22a6505c243a:-77621349,5fe06f1202dc1310049f4e1c3d58f133:-306540001</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_portal_search_source_1654ed70bc604c77bd4fbc1889e9cfcd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>200</order><sp_portal display_value="LAB09 Service Portal">2c0bf7f909364e16927cb72cbbd4a090</sp_portal><sp_search_source display_value="Knowledge Bases">c6170ae86721220023c82e08f585efe6</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:08</sys_created_on><sys_id>1654ed70bc604c77bd4fbc1889e9cfcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>m2m_sp_portal_search_source_1654ed70bc604c77bd4fbc1889e9cfcd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:08</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+<payload_hash>1536727223</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>63c598ee2f5453108b2f298a6fa4e3c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Search Source</type>
+<update_domain>global</update_domain>
+<update_guid>e6e02f1210dc131039e6d769a17b3014</update_guid>
+<update_guid_history>e6e02f1210dc131039e6d769a17b3014:139809972</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_cf1c81bf4f854afd862a15ec94270665</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_support_i&lt;/id&gt;&lt;order&gt;200&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="200"&gt;c0c843c189594a73a86f17f9573d8a2f&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — Help"&gt;380db8f00e7b44e6a4a18c811ccd8553&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;cf1c81bf4f854afd862a15ec94270665&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_cf1c81bf4f854afd862a15ec94270665&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cf1c81bf4f854afd862a15ec94270665"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>767504855</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>63c598ee2f5453108b2f298a6fa4e3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732916d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1aa4235a43dc1310e81416b0b29275a2</update_guid>
+<update_guid_history>1aa4235a43dc1310e81416b0b29275a2:-156161224,b6e02f12c2dc1310ec064cc711b1819e:390618764</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_d75852940bb249d4ae13bcd7cfc4668f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.14.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "lab09-hello-world-portal",
+      "version": "0.0.1",
+      "bom-ref": "pkg:servicenow/lab09-hello-world-portal@0.0.1?sys_scope_id=d02a2003fd1f4a7698b9995b314584cd",
+      "description": "LAB09 Service Portal for services, knowledge and request tracking",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/lab09-hello-world-portal@0.0.1?sys_scope_id=d02a2003fd1f4a7698b9995b314584cd"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/lab09-hello-world-portal@0.0.1?sys_scope_id=d02a2003fd1f4a7698b9995b314584cd"
+    }
+  ]
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/bom.json&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;d75852940bb249d4ae13bcd7cfc4668f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/bom.json&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_d75852940bb249d4ae13bcd7cfc4668f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 11:48:10&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-639167436</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>63c598ee2f5453108b2f298a6fa4e3e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/bom.json</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_c0c843c189594a73a86f17f9573d8a2f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>200</order><semantic_tag/><size>4</size><size_lg/><size_sm>12</size_sm><size_xs>12</size_xs><sp_row display_value="100">657c1e8f59cb45e595ac8092f076466f</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 13:24:06</sys_created_on><sys_id>c0c843c189594a73a86f17f9573d8a2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>200</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_column_c0c843c189594a73a86f17f9573d8a2f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 13:24:06</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1851817409</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>67c598ee2f5453108b2f298a6fa4e3c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>200</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_657c1e8f59cb45e595ac8092f076466f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><sp_column/><sp_container display_value="Requests &amp; help">43ccb17374d54ee28a67b0eba24a8ae2</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>657c1e8f59cb45e595ac8092f076466f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_row_657c1e8f59cb45e595ac8092f076466f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-905487912</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>67c598ee2f5453108b2f298a6fa4e3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>76e02f1227dc131015e605793115cec5</update_guid>
+<update_guid_history>76e02f1227dc131015e605793115cec5:330098631</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_de421a8aade640048b7df0e8642acddd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>Interstellar promotional poster from Paramount; source and rights notes in docs/FILM-SOURCES.md</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_lab09_hello_worl.midnight.art.scifi</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:11</sys_created_on><sys_id>de421a8aade640048b7df0e8642acddd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl.midnight.art.scifi</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_properties_de421a8aade640048b7df0e8642acddd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:11</sys_updated_on><type>image</type><value>cff7a0facf4931665700338ae155d021</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=de421a8aade640048b7df0e8642acddd"/></record_update>]]></payload>
+<payload_hash>1170289054</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>67c598ee2f5453108b2f298a6fa4e3e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl.midnight.art.scifi</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>ebe67bded15053102e2c64cae1ad8a11</update_guid>
+<update_guid_history>ebe67bded15053102e2c64cae1ad8a11:1170289054,97e06f1224dc13101f010dd15db2eb3d:1960483663</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_43ccb17374d54ee28a67b0eba24a8ae2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>mf-container-backstage</class_name><container_class_name>mf-page</container_class_name><name>Requests &amp; help</name><order>300</order><semantic_tag/><sp_page display_value="gako_lab09_home">e11f9468c0a4499d9ea3771962bfae2d</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>43ccb17374d54ee28a67b0eba24a8ae2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requests &amp; help</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_container_43ccb17374d54ee28a67b0eba24a8ae2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on><title/><width>container-fluid</width></sp_container></record_update>]]></payload>
+<payload_hash>986085216</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>6bc598ee2f5453108b2f298a6fa4e3c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290780000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>Requests &amp; help</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>6ee02f123ddc13106564c41687a3bc57</update_guid>
+<update_guid_history>6ee02f123ddc13106564c41687a3bc57:-816213696</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_31a4c937a7d046aa94e65aeb6264fded</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+  var c = this;
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Published article previews filtered by user access.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_knowledge&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Knowledge base&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    data.knowledgeUrl = '?id=kb_view';
+    data.articles = [];
+    data.knowledgeError = '';
+    if (!gs.isLoggedIn()) return;
+    try {
+        // Use Knowledge's user-criteria-aware API, not a raw kb_knowledge query.
+        var articles = new GlideRecordSecure('kb_knowledge');
+        articles.addQuery('workflow_state', 'published');
+        articles.addQuery('kb_knowledge_base', 'a7e8a78bff0221009b20ffffffffff17');
+        articles.addQuery('valid_to', '&gt;=', new GlideDate().getValue());
+        articles.orderByDesc('sys_view_count');
+        articles.setLimit(24);
+        articles.query();
+        while (articles.next() &amp;&amp; data.articles.length &lt; 3) {
+            if (!$sp.canReadRecord(articles)) continue;
+            data.articles.push({
+                title: articles.getValue('short_description'),
+                number: articles.getValue('number'),
+                url: '?id=kb_article&amp;sys_id=' + articles.getUniqueValue()
+            });
+        }
+    } catch (error) {
+        data.knowledgeError = 'Could not load articles. Try the knowledge base.';
+        gs.warn('LAB09: knowledge preview unavailable.');
+    }
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;31a4c937a7d046aa94e65aeb6264fded&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Knowledge base&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_31a4c937a7d046aa94e65aeb6264fded&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section id="mf-notes" class="mf-card mf-knowledge" aria-labelledby="mf-notes-title"&gt;
+  &lt;div class="mf-card-heading"&gt;&lt;h2 id="mf-notes-title"&gt;Knowledge base&lt;/h2&gt;&lt;span class="mf-heading-line" aria-hidden="true"&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;div class="mf-article-list"&gt;
+    &lt;a class="mf-article" ng-repeat="article in c.data.articles track by $index" ng-href="{{article.url}}"&gt;&lt;span class="mf-article-copy"&gt;&lt;small&gt;{{article.number}}&lt;/small&gt;&lt;strong&gt;{{article.title}}&lt;/strong&gt;&lt;/span&gt;&lt;span class="mf-article-arrow" aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+    &lt;div class="mf-archive-empty" ng-if="!c.data.articles.length"&gt;&lt;p ng-if="!c.data.knowledgeError"&gt;No articles to show.&lt;/p&gt;&lt;p ng-if="c.data.knowledgeError" role="status"&gt;{{c.data.knowledgeError}}&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;a class="mf-text-link" ng-href="{{c.data.knowledgeUrl}}"&gt;All articles &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/a&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1523818633</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>6bc598ee2f5453108b2f298a6fa4e3df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291f40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Knowledge base</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>cc3e44eea1145310b3b9d3ae08828e4c</update_guid>
+<update_guid_history>cc3e44eea1145310b3b9d3ae08828e4c:-1523818633,b2e02f123ddc1310496148729597b1de:-1064871480</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_626123922fdc13108b2f298a6fa4e3e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:50:20</sys_created_on><sys_id>626123922fdc13108b2f298a6fa4e3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedGlideElement</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_scope_privilege_626123922fdc13108b2f298a6fa4e3e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:50:20</sys_updated_on><target_name>ScopedGlideElement</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-121153727</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>6bc598ee2f5453108b2f298a6fa4e3e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>ScopedGlideElement</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>7261239210dc13102ddb699d4d70c8ea</update_guid>
+<update_guid_history>7261239210dc13102ddb699d4d70c8ea:-121153727</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_header_footer_51b3d138ac5d4611a75f52a75679514e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+  var c = this;
+  c.menuOpen = false;
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_header&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Navigation&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    var portal = $sp.getPortalRecord();
+    var homepage = portal.homepage.getRefRecord();
+    data.homeUrl = '?id=' + encodeURIComponent(String(homepage.getValue('id') || ''));
+    var logo = String(portal.getValue('logo') || '').replace(/\.iix$/, '');
+    data.art = { logo: '/sys_attachment.do?sys_id=' + encodeURIComponent(logo) };
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;true&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;51b3d138ac5d4611a75f52a75679514e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Navigation&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_51b3d138ac5d4611a75f52a75679514e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;header class="mf-header"&gt;
+  &lt;a class="mf-skip" ng-href="{{c.data.homeUrl}}#mf-search"&gt;Skip to search&lt;/a&gt;
+  &lt;div class="mf-nav-inner"&gt;
+    &lt;a class="mf-brand" ng-href="{{c.data.homeUrl}}" aria-label="Lab09 Service Portal home"&gt;
+      &lt;img class="mf-logo" ng-src="{{c.data.art.logo}}" alt="" width="46" height="46"&gt;
+      &lt;span class="mf-wordmark"&gt;LAB09&lt;small&gt;Service Portal&lt;/small&gt;&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;button class="mf-menu-toggle" type="button" ng-click="c.menuOpen = !c.menuOpen" aria-controls="mf-primary-nav" aria-expanded="{{!!c.menuOpen}}"&gt;&lt;span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"&gt;&lt;/span&gt;&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;&lt;/button&gt;
+    &lt;nav id="mf-primary-nav" class="mf-nav" ng-class="{'mf-nav-open': c.menuOpen}" aria-label="Main navigation"&gt;
+      &lt;a ng-href="{{c.data.homeUrl}}#mf-discover" ng-click="c.menuOpen = false"&gt;Services&lt;/a&gt;
+      &lt;a ng-href="{{c.data.homeUrl}}#mf-notes" ng-click="c.menuOpen = false"&gt;Knowledge&lt;/a&gt;
+      &lt;a ng-href="{{c.data.homeUrl}}#mf-backstage" ng-click="c.menuOpen = false"&gt;My requests&lt;/a&gt;
+      &lt;a class="mf-nav-action" ng-href="{{c.data.homeUrl}}#mf-help" ng-click="c.menuOpen = false"&gt;&lt;span class="glyphicon glyphicon-question-sign" aria-hidden="true"&gt;&lt;/span&gt;Help&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1650945348</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>6fc598ee2f5453108b2f298a6fa4e3cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73292100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Navigation</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>083e44ee4f145310c1f10dbce7f60e36</update_guid>
+<update_guid_history>083e44ee4f145310c1f10dbce7f60e36:1650945348,e6a4235a4ddc13108262e4e7783787b0:1495865652,f2e02f12afdc131071c6cb65efbf5c6d:573147121</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_f057ce3e04cd4ba4b2f6b32fe693d689</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Displays the native My Requests widget.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_requests&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — My requests&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    data.authenticated = gs.isLoggedIn();
+    data.requests = [];
+    data.requestsUrl = '?id=my_requests';
+    data.requestsError = '';
+    if (!data.authenticated) return;
+    try {
+        // Native request_filter and GlideRecordSecure behavior remain owned by ServiceNow.
+        data.requestsWidget = $sp.getWidget('8cc0df25875023000f220cf888cb0bb5', {
+            title: 'My requests', items_per_page: 5, show_view: 'true'
+        });
+    } catch (error) {
+        data.requestsError = 'Could not load requests. Open My requests to try again.';
+        gs.warn('LAB09: native request preview unavailable.');
+    }
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f057ce3e04cd4ba4b2f6b32fe693d689&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — My requests&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_f057ce3e04cd4ba4b2f6b32fe693d689&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section id="mf-backstage" class="mf-card mf-requests" aria-labelledby="mf-requests-title"&gt;
+  &lt;div class="mf-requests-heading"&gt;
+    &lt;div class="mf-requests-title-group"&gt;&lt;h2 id="mf-requests-title"&gt;My requests&lt;/h2&gt;&lt;/div&gt;
+    &lt;a class="mf-refresh" ng-href="{{c.data.requestsUrl}}" aria-label="View all requests"&gt;View all &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="mf-request-board"&gt;
+    &lt;p class="mf-preview-note" ng-if="c.data.localPreview"&gt;Requests load on ServiceNow.&lt;/p&gt;
+    &lt;p ng-if="c.data.requestsError" class="mf-request-error" role="status"&gt;{{c.data.requestsError}}&lt;/p&gt;
+    &lt;sp-widget ng-if="c.data.requestsWidget" widget="c.data.requestsWidget"&gt;&lt;/sp-widget&gt;
+    &lt;div ng-if="!c.data.requestsWidget"&gt;
+      &lt;a class="mf-request-row" ng-repeat="request in c.data.requests track by $index" ng-href="{{request.url}}"&gt;&lt;span&gt;{{request.number}}&lt;/span&gt;&lt;strong&gt;{{request.title}}&lt;/strong&gt;&lt;span&gt;{{request.state}}&lt;/span&gt;&lt;/a&gt;
+      &lt;div class="mf-requests-empty" ng-if="!c.data.requests.length &amp;amp;&amp;amp; !c.data.requestsError"&gt;
+        &lt;div class="mf-empty-icon" aria-hidden="true"&gt;&lt;span class="glyphicon glyphicon-inbox"&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;h3&gt;{{c.data.authenticated ? 'No requests to show.' : 'Sign in to view your requests.'}}&lt;/h3&gt;
+        &lt;a class="mf-text-link" ng-if="c.data.requestsUrl" ng-href="{{c.data.requestsUrl}}"&gt;{{c.data.authenticated ? 'View my requests' : 'Sign in'}} &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1413304422</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>6fc598ee2f5453108b2f298a6fa4e3e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732925f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — My requests</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>903e44ee771453108cc4f3f9a2b26364</update_guid>
+<update_guid_history>903e44ee771453108cc4f3f9a2b26364:-1309856662,b2e02f129bdc1310144a60e736de22ef:-545043349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_e692ac3d036b4970834e4416f281b0ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>mf-container-opening</class_name><container_class_name>mf-page</container_class_name><name>Welcome &amp; announcements</name><order>100</order><semantic_tag/><sp_page display_value="gako_lab09_home">e11f9468c0a4499d9ea3771962bfae2d</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>e692ac3d036b4970834e4416f281b0ce</sys_id><sys_mod_count>1</sys_mod_count><sys_name>LAB09 Service Portal - Container 100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_container_e692ac3d036b4970834e4416f281b0ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 15:05:56</sys_updated_on><title/><width>container-fluid</width></sp_container></record_update>]]></payload>
+<payload_hash>1545506682</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>a3c598ee2f5453108b2f298a6fa4e3ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291d00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>Welcome &amp; announcements</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>003e44eef5145310ad98f6e0c2f5942a</update_guid>
+<update_guid_history>003e44eef5145310ad98f6e0c2f5942a:530526419,6ee02f126adc131052c583b1fd6a5b5b:474270071</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_380db8f00e7b44e6a4a18c811ccd8553</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+  var c = this;
+  c.openFaq = 0;
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Help links and frequently asked questions.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_support&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Help&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    data.helpUrl = '?id=sc_home';
+    data.knowledgeUrl = '?id=kb_view';
+    data.requestsUrl = '?id=my_requests';
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;380db8f00e7b44e6a4a18c811ccd8553&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Help&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_380db8f00e7b44e6a4a18c811ccd8553&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section id="mf-help" class="mf-card mf-support" aria-labelledby="mf-support-title"&gt;
+  &lt;div class="mf-card-heading"&gt;&lt;h2 id="mf-support-title"&gt;Help &amp;amp; support&lt;/h2&gt;&lt;/div&gt;
+  &lt;div class="mf-faq"&gt;
+    &lt;div class="mf-faq-item"&gt;
+      &lt;button type="button" ng-click="c.openFaq = c.openFaq === 1 ? 0 : 1" aria-expanded="{{c.openFaq === 1}}" aria-controls="mf-faq-1"&gt;How do I request a service?&lt;span aria-hidden="true"&gt;{{c.openFaq === 1 ? '−' : '+'}}&lt;/span&gt;&lt;/button&gt;
+      &lt;p id="mf-faq-1" ng-if="c.openFaq === 1"&gt;Open the &lt;a ng-href="{{c.data.helpUrl}}"&gt;service catalog&lt;/a&gt;, choose a service, and complete its form.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="mf-faq-item"&gt;
+      &lt;button type="button" ng-click="c.openFaq = c.openFaq === 2 ? 0 : 2" aria-expanded="{{c.openFaq === 2}}" aria-controls="mf-faq-2"&gt;Where can I find answers?&lt;span aria-hidden="true"&gt;{{c.openFaq === 2 ? '−' : '+'}}&lt;/span&gt;&lt;/button&gt;
+      &lt;p id="mf-faq-2" ng-if="c.openFaq === 2"&gt;Use the search above or browse the &lt;a ng-href="{{c.data.knowledgeUrl}}"&gt;knowledge base&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="mf-faq-item"&gt;
+      &lt;button type="button" ng-click="c.openFaq = c.openFaq === 3 ? 0 : 3" aria-expanded="{{c.openFaq === 3}}" aria-controls="mf-faq-3"&gt;How do I track a request?&lt;span aria-hidden="true"&gt;{{c.openFaq === 3 ? '−' : '+'}}&lt;/span&gt;&lt;/button&gt;
+      &lt;p id="mf-faq-3" ng-if="c.openFaq === 3"&gt;Open &lt;a ng-href="{{c.data.requestsUrl}}"&gt;My requests&lt;/a&gt; to see its status and updates.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="mf-support-bottom"&gt;&lt;a class="mf-text-link" ng-href="{{c.data.knowledgeUrl}}"&gt;Browse help articles &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+  &lt;footer class="mf-footer"&gt;&lt;span class="mf-footer-brand"&gt;LABORATORY 09&lt;/span&gt;&lt;span&gt;Joana Carla Gako&lt;/span&gt;&lt;/footer&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-928095738</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>a3c598ee2f5453108b2f298a6fa4e3e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73292020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Help</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>8c3e44ee9914531060306a7df37fcc52</update_guid>
+<update_guid_history>8c3e44ee9914531060306a7df37fcc52:-928095738,f6e02f1258dc13102652e745b4f967e2:1569153698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_f26123922fdc13108b2f298a6fa4e3fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:50:20</sys_created_on><sys_id>f26123922fdc13108b2f298a6fa4e3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecordSecure.getValue</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_scope_privilege_f26123922fdc13108b2f298a6fa4e3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:50:20</sys_updated_on><target_name>GlideRecordSecure.getValue</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1238514271</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>a3c598ee2f5453108b2f298a6fa4e3e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732911c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>GlideRecordSecure.getValue</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>f261239268dc13106a01692d46cf1eff</update_guid>
+<update_guid_history>f261239268dc13106a01692d46cf1eff:-1238514271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_015ccb4cd7704a138e59c123c9b9ebe2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_catalog_i&lt;/id&gt;&lt;order&gt;100&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="100"&gt;2085c47d564043fa95c7e56c2ab86a17&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — Service catalog"&gt;a43d77f11a6b4f9caad164cf10f60d56&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;015ccb4cd7704a138e59c123c9b9ebe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_015ccb4cd7704a138e59c123c9b9ebe2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=015ccb4cd7704a138e59c123c9b9ebe2"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>35936620</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>a7c598ee2f5453108b2f298a6fa4e3cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732913b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>d6a4235a93dc1310f2a05aed1f81518f</update_guid>
+<update_guid_history>d6a4235a93dc1310f2a05aed1f81518f:1207636716,3ee02f1217dc1310192663866b832273:1316618755</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_fcad0c3d67b54481b1d5084d4ea5f788</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($window) {
+  var c = this;
+  c.query = '';
+  c.searching = false;
+  c.search = function() {
+    var query = (c.query || '').replace(/^\s+|\s+$/g, '');
+    if (!query || c.searching) return;
+    c.searching = true;
+    $window.location.href = (c.data.searchUrl || '?id=search&amp;spa=1') + '&amp;q=' + encodeURIComponent(query);
+  };
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Welcome and native Service Portal search.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_hero&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Welcome and search&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    data.searchUrl = '?id=search&amp;spa=1';
+    data.catalogUrl = '?id=sc_home';
+    data.knowledgeUrl = '?id=kb_view';
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fcad0c3d67b54481b1d5084d4ea5f788&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Welcome and search&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_fcad0c3d67b54481b1d5084d4ea5f788&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section class="mf-hero" aria-labelledby="mf-hero-title"&gt;
+  &lt;div class="mf-hero-inner"&gt;
+    &lt;div class="mf-hero-copy"&gt;
+      &lt;span class="mf-eyebrow"&gt;LABORATORY 09&lt;/span&gt;
+      &lt;h1 id="mf-hero-title"&gt;How can&lt;br&gt;we help?&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class="mf-hero-search"&gt;
+      &lt;form id="mf-search" class="mf-search" ng-submit="c.search()" role="search" aria-label="Search services and articles"&gt;
+        &lt;label class="mf-search-label" for="mf-query"&gt;Find a service or a help article&lt;/label&gt;
+        &lt;div class="mf-search-field"&gt;
+          &lt;span class="glyphicon glyphicon-search" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;input id="mf-query" name="q" type="search" ng-model="c.query" placeholder="Search the portal" maxlength="120" autocomplete="off" required&gt;
+          &lt;button type="submit" ng-disabled="c.searching" aria-label="Search services and articles"&gt;Search&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+      &lt;div class="mf-hero-links"&gt;&lt;a ng-href="{{c.data.catalogUrl}}"&gt;Browse services &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;&lt;a ng-href="{{c.data.knowledgeUrl}}"&gt;Knowledge base &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>126450208</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>a7c598ee2f5453108b2f298a6fa4e3e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73292720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Welcome and search</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>9c3e44eef2145310770feded26716369</update_guid>
+<update_guid_history>9c3e44eef2145310770feded26716369:126450208,36e02f12c9dc131041b03457237e73f3:-1459957344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_fd97e76fb49b4c4997a53daaae462a1e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>100</order><sp_css_include display_value="LAB09 — Shared styles">95267df8a9244d99955190310f133e58</sp_css_include><sp_theme display_value="LAB09 — Service Portal theme">daa67a9829e54159b964de395b538acd</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:08</sys_created_on><sys_id>fd97e76fb49b4c4997a53daaae462a1e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>m2m_sp_theme_css_include_fd97e76fb49b4c4997a53daaae462a1e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:08</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>24862973</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>abc598ee2f5453108b2f298a6fa4e3c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290350000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>26e02f12a8dc13108d2a5132c592e51a</update_guid>
+<update_guid_history>26e02f12a8dc13108d2a5132c592e51a:394732651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_e7b914cef1794d6ca98ab31dc63bb00c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_hero_i&lt;/id&gt;&lt;order&gt;100&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="100"&gt;ee3c7666dec54accb9afac7a53b62fdb&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — Welcome and search"&gt;fcad0c3d67b54481b1d5084d4ea5f788&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;e7b914cef1794d6ca98ab31dc63bb00c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_e7b914cef1794d6ca98ab31dc63bb00c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e7b914cef1794d6ca98ab31dc63bb00c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1902329244</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>abc598ee2f5453108b2f298a6fa4e3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>12a4235a73dc13104985e1dcea22e989</update_guid>
+<update_guid_history>12a4235a73dc13104985e1dcea22e989:-319597975,7ee02f12d6dc131012d39aca23d2aea2:-580729362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_0163b16ecd794330ac74eaf6239eb8ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>La La Land promotional image from Lionsgate+; source and rights notes in docs/FILM-SOURCES.md</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_lab09_hello_worl.midnight.art.drama</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:10</sys_created_on><sys_id>0163b16ecd794330ac74eaf6239eb8ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl.midnight.art.drama</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_properties_0163b16ecd794330ac74eaf6239eb8ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:10</sys_updated_on><type>image</type><value>cb796798b288186c15346ef63e1d0fea</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=0163b16ecd794330ac74eaf6239eb8ba"/></record_update>]]></payload>
+<payload_hash>2046269902</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>abc598ee2f5453108b2f298a6fa4e3e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl.midnight.art.drama</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>97e63bde65505310ceacd897ca52484f</update_guid>
+<update_guid_history>97e63bde65505310ceacd897ca52484f:2046269902,43e06f1290dc1310d4bd1927137e7208:1751007647</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_ee3c7666dec54accb9afac7a53b62fdb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><size>12</size><size_lg/><size_sm>12</size_sm><size_xs>12</size_xs><sp_row display_value="100">db34ec029b804d6dbca3a0b101236124</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>ee3c7666dec54accb9afac7a53b62fdb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_column_ee3c7666dec54accb9afac7a53b62fdb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>66255887</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>afc598ee2f5453108b2f298a6fa4e3c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290bf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>a2e02f1209dc131025a84d35ff32933d</update_guid>
+<update_guid_history>a2e02f1209dc131025a84d35ff32933d:1088087231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_7e042718b5174ed08731c570c14c0bb7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><sp_column/><sp_container display_value="Services &amp; knowledge">22247889d01e4831b0c2b9318d53e4ea</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>7e042718b5174ed08731c570c14c0bb7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_row_7e042718b5174ed08731c570c14c0bb7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-700566163</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>afc598ee2f5453108b2f298a6fa4e3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>3ee02f120edc13106037d1666d5d32c9</update_guid>
+<update_guid_history>3ee02f120edc13106037d1666d5d32c9:-547779755</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_226123922fdc13108b2f298a6fa4e3e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:50:20</sys_created_on><sys_id>226123922fdc13108b2f298a6fa4e3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kb_knowledge</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_scope_privilege_226123922fdc13108b2f298a6fa4e3e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:50:20</sys_updated_on><target_name>kb_knowledge</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1682501423</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>afc598ee2f5453108b2f298a6fa4e3e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>kb_knowledge</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>226123920adc1310568e2bdf240448e6</update_guid>
+<update_guid_history>226123920adc1310568e2bdf240448e6:-1682501423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_2085c47d564043fa95c7e56c2ab86a17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><size>6</size><size_lg/><size_sm>12</size_sm><size_xs>12</size_xs><sp_row display_value="100">7e042718b5174ed08731c570c14c0bb7</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>2085c47d564043fa95c7e56c2ab86a17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_column_2085c47d564043fa95c7e56c2ab86a17</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>1015672562</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e3c598ee2f5453108b2f298a6fa4e3c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>6ee02f1290dc131008eb7185029cbb1f</update_guid>
+<update_guid_history>6ee02f1290dc131008eb7185029cbb1f:-1675222195</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_e11f9468c0a4499d9ea3771962bfae2d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>gako_lab09_home</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description>Find services, read help articles and track requests.</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>e11f9468c0a4499d9ea3771962bfae2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl_midnight_home</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_page_e11f9468c0a4499d9ea3771962bfae2d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on><title>LAB09 Service Portal</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=e11f9468c0a4499d9ea3771962bfae2d"/></record_update>]]></payload>
+<payload_hash>719225278</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e3c598ee2f5453108b2f298a6fa4e3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290af0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>gako_lab09_home</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>bae02f1268dc131039437fb00c0ec8a8</update_guid>
+<update_guid_history>bae02f1268dc131039437fb00c0ec8a8:-1369013824</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_649187f84e8840fd889da18778bb85b9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="DELETE"><choices/><description>Shutter Island promotional poster from Paramount; source and rights notes in docs/FILM-SOURCES.md</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_lab09_hello_worl.midnight.art.mystery</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:10</sys_created_on><sys_id>649187f84e8840fd889da18778bb85b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl.midnight.art.mystery</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_properties_649187f84e8840fd889da18778bb85b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:10</sys_updated_on><type>image</type><value>852eded6c3444e870f9110fa5a80a90f</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=649187f84e8840fd889da18778bb85b9"/></record_update>]]></payload>
+<payload_hash>-240146024</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e3c598ee2f5453108b2f298a6fa4e3e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73291b00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl.midnight.art.mystery</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>8be6f7de77505310bb47a5b224acc1e3</update_guid>
+<update_guid_history>8be6f7de77505310bb47a5b224acc1e3:-240146024,4fe06f12fbdc1310e475b255dc1fea1d:-207117231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_ef79085b36bf4dd0996d577184807162</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><size>8</size><size_lg/><size_sm>12</size_sm><size_xs>12</size_xs><sp_row display_value="100">657c1e8f59cb45e595ac8092f076466f</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>ef79085b36bf4dd0996d577184807162</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_column_ef79085b36bf4dd0996d577184807162</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1551812069</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e7c598ee2f5453108b2f298a6fa4e3c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290ca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>66e02f1210dc13109838230ce4438f41</update_guid>
+<update_guid_history>66e02f1210dc13109838230ce4438f41:-1489517438</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_db34ec029b804d6dbca3a0b101236124</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>100</order><semantic_tag/><sp_column/><sp_container display_value="Welcome &amp; announcements">e692ac3d036b4970834e4416f281b0ce</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>db34ec029b804d6dbca3a0b101236124</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_row_db34ec029b804d6dbca3a0b101236124</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-1915330284</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e7c598ee2f5453108b2f298a6fa4e3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>100</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>fee02f1209dc13107951478611a7cfcd</update_guid>
+<update_guid_history>fee02f1209dc13107951478611a7cfcd:691859960</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_2e6123922fdc13108b2f298a6fa4e3d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:50:20</sys_created_on><sys_id>2e6123922fdc13108b2f298a6fa4e3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: properties</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sys_scope_privilege_2e6123922fdc13108b2f298a6fa4e3d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:50:20</sys_updated_on><target_name>Glide API: properties</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1295063313</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>e7c598ee2f5453108b2f298a6fa4e3e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>Glide API: properties</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>aa612392e2dc131012df235a791e39d8</update_guid>
+<update_guid_history>aa612392e2dc131012df235a791e39d8:-1295063313</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_portal_catalog_105aadd161e54ec08b1f9993ca6016be</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sp_portal display_value="LAB09 Service Portal">2c0bf7f909364e16927cb72cbbd4a090</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:08</sys_created_on><sys_id>105aadd161e54ec08b1f9993ca6016be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>m2m_sp_portal_catalog_105aadd161e54ec08b1f9993ca6016be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:08</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+<payload_hash>-711047860</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>ebc598ee2f5453108b2f298a6fa4e3c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a7328ffc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>Service Catalog.</target_name>
+<type>Portal Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>aee02f1244dc13102199916c9af53f02</update_guid>
+<update_guid_history>aee02f1244dc13102199916c9af53f02:-1109409685</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_245fb718491e491aba19b8ae36daa117</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>/* Lab09: dedicated portal styling. Native widgets retain all their behavior. */
+$navy: #101e34;
+$blue: #315fe9;
+$ink: #182942;
+$muted: #607089;
+$line: #e1e7ef;
+
+html.sn-sp-page body, body { background: #f6f8fc; color: $ink; font-family: "Segoe UI", Arial, sans-serif; }
+.mf-page, .mf-header { font-family: "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.55; }
+.mf-page *, .mf-header * { box-sizing: border-box; }
+.mf-page h1, .mf-page h2, .mf-page h3 { font-family: inherit; color: $ink; line-height: 1.15; font-weight: 600; letter-spacing: -.035em; }
+.mf-page a { color: $blue; text-decoration: none; }
+.mf-page a:hover { text-decoration: underline; }
+.mf-page button, .mf-header button { font: inherit; cursor: pointer; }
+.mf-page button:disabled { cursor: wait; opacity: .6; }
+.mf-page a:focus-visible, .mf-page button:focus-visible, .mf-page input:focus-visible, .mf-header a:focus-visible, .mf-header button:focus-visible { outline: 3px solid #e9b550; outline-offset: 4px; }
+.mf-page .glyphicon, .mf-header .glyphicon { line-height: 1; }
+
+/* Header and opening share one dark surface. */
+.mf-header { background: #101e34; border-bottom: 1px solid rgba(186,207,238,.1); position: relative; z-index: 20; }
+.mf-nav-inner { max-width: 1232px; min-height: 76px; padding: 14px 32px; margin: auto; display: flex; align-items: center; gap: 24px; }
+.mf-brand { display: inline-flex; gap: 12px; align-items: center; color: #fff !important; text-decoration: none !important; }
+.mf-logo { width: 38px; height: 38px; flex: 0 0 38px; }
+.mf-wordmark { color: white; font-size: 19px; letter-spacing: -.035em; line-height: 1; font-weight: 700; }
+.mf-wordmark small { color: #a8b9cf; display: block; font-size: 10px; margin-top: 6px; letter-spacing: .04em; font-weight: 400; }
+.mf-nav { display: flex; margin-left: auto; gap: 33px; align-items: center; }
+.mf-nav a { color: #c4d0e1; font-size: 13px; font-weight: 500; padding: 10px 0; text-decoration: none; transition: color .15s; }
+.mf-nav a:hover { color: #fff; }
+.mf-nav .mf-nav-action { color: #e3ebf7; border: 1px solid #40516b; border-radius: 7px; padding: 9px 17px; }
+.mf-nav .mf-nav-action:hover { border-color: #7a97c3; background: #1b2c47; }
+.mf-nav-action .glyphicon { font-size: 11px; margin-right: 7px; }
+.mf-menu-toggle { display: none; margin-left: auto; border: 1px solid #40516b; background: transparent; color: white; border-radius: 7px; width: 42px; height: 42px; }
+.mf-skip { position: absolute; left: 20px; top: -100px; padding: 12px 18px; background: white; color: $ink; z-index: 30; }
+.mf-skip:focus { top: 10px; }
+
+/* Real Service Portal container gutters match the local harness. */
+.mf-container-opening .mf-page { max-width: none; padding: 0; }
+.mf-container-opening .row { margin: 0; }
+.mf-container-opening .col-md-12 { padding: 0; }
+.mf-container-discover .mf-page, .mf-container-backstage .mf-page { max-width: 1232px; padding: 0 32px; margin: auto; }
+.mf-container-discover .row, .mf-container-backstage .row { margin-left: -18px; margin-right: -18px; }
+.mf-container-discover .row &gt; [class*="col-"], .mf-container-backstage .row &gt; [class*="col-"] { padding-left: 18px; padding-right: 18px; }
+.mf-container-discover { padding-top: 10px; }
+.mf-container-backstage { padding-top: 42px; padding-bottom: 58px; }
+
+.mf-hero { background: #101e34; color: white; position: relative; overflow: hidden; }
+.mf-hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 100% 0%, rgba(41,89,183,.34), transparent 62%), linear-gradient(135deg, transparent 62%, rgba(78,125,222,.06) 62%, rgba(78,125,222,.06) 78%, transparent 78%); }
+.mf-hero::after { content: ""; position: absolute; width: 350px; height: 350px; border: 1px solid rgba(140,174,236,.08); right: -120px; top: -210px; transform: rotate(35deg); border-radius: 44px; }
+.mf-hero-inner { max-width: 1232px; padding: 48px 32px 62px; margin: auto; position: relative; z-index: 1; display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 70px; }
+.mf-eyebrow { color: #91a9cd; font-size: 10px; font-weight: 650; text-transform: uppercase; letter-spacing: .2em; }
+.mf-hero h1 { color: white; font-size: 58px; font-weight: 550; letter-spacing: -.055em; line-height: 1.03; margin: 16px 0 0; }
+.mf-hero-search { padding-top: 21px; }
+.mf-search { margin: 0; }
+.mf-search-label { display: block; color: #e3eaf5; font-size: 15px; font-weight: 400; margin: 0 0 13px; letter-spacing: -.01em; }
+.mf-search-field { display: flex; align-items: center; min-height: 65px; border: 1px solid rgba(215,228,251,.15); border-radius: 10px; background: #fff; padding: 6px; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+.mf-search-field &gt; .glyphicon { font-size: 18px; color: #7b8ba0; margin: 0 14px 0 15px; }
+.mf-search-field input { flex: 1; width: 100%; min-width: 0; height: 50px; padding: 7px 0; background: none; border: 0; box-shadow: none; color: $ink; font-size: 15px; font-family: inherit; border-radius: 4px; outline-offset: -3px !important; }
+.mf-search-field input::placeholder { color: #758398; opacity: 1; }
+.mf-search-field button { min-width: 92px; height: 50px; padding: 0 18px; color: white; border: 0; border-radius: 6px; background: $blue; font-size: 13px; font-weight: 600; transition: background .15s; }
+.mf-search-field button:hover { background: #214cd1; }
+.mf-hero-links { display: flex; gap: 26px; flex-wrap: wrap; margin-top: 17px; }
+.mf-hero-links a { color: #aebfda; font-size: 12px; }
+.mf-hero-links a:hover { color: white; }
+.mf-hero-links a span { color: #91a9cd; margin-left: 8px; font-size: 15px; }
+
+/* Announcements are a compact native content line, not another card. */
+.mf-noticeboard { max-width: 1168px; margin: 0 auto 25px; padding: 21px 0; border-bottom: 1px solid #dfe6ef; display: flex; align-items: center; gap: 13px; }
+.mf-notice-icon { color: #597293; width: 19px; flex: 0 0 19px; font-size: 15px; }
+.mf-notice-copy { display: flex; align-items: baseline; gap: 21px; flex: 1; min-width: 0; }
+.mf-noticeboard h2 { font-size: 12px; color: #3b526f; letter-spacing: -.005em; font-weight: 650; margin: 0; flex-shrink: 0; }
+.mf-noticeboard p { color: #718098; font-size: 12px; margin: 0; }
+.mf-native-announcements { min-width: 0; flex: 1; }
+.mf-native-announcements .panel { margin: 0; background: none; border: 0; box-shadow: none; }
+.mf-native-announcements .panel-heading { display: none; }
+.mf-native-announcements .panel-body, .mf-native-announcements .list-group-item { padding: 0; border: 0; background: none; }
+.mf-native-announcements .title { font-size: 13px; font-weight: 500; }
+
+.mf-card { font-family: "Segoe UI", Arial, sans-serif; }
+.mf-card h2 { font-size: 25px; margin: 0; }
+.mf-card-heading { display: flex; align-items: center; gap: 25px; margin-bottom: 19px; }
+.mf-heading-line { flex: 1; height: 1px; background: $line; }
+.mf-panel-label { display: block; color: #7485a0; font-size: 9px; font-weight: 650; letter-spacing: .17em; }
+.mf-text-link { display: inline-flex; align-items: center; gap: 18px; color: $blue; font-size: 12px; font-weight: 650; }
+.mf-text-link span { font-size: 17px; font-weight: 400; }
+
+/* A strong service action sits alongside a quiet editorial knowledge list. */
+.mf-catalog-card { padding: 27px 30px 28px; min-height: 330px; border-radius: 12px; background: linear-gradient(125deg, #203b6f, #18305a); color: white; position: relative; overflow: hidden; box-shadow: 0 10px 24px rgba(23,44,83,.09); }
+.mf-catalog-card::before { content: ""; position: absolute; right: -35px; top: -90px; width: 240px; height: 240px; transform: rotate(34deg); border: 1px solid rgba(170,199,249,.1); border-radius: 24px; box-shadow: 0 0 0 36px rgba(137,177,246,.025); pointer-events: none; }
+.mf-catalog-card &gt; * { position: relative; z-index: 1; }
+.mf-catalog-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 26px; }
+.mf-catalog-top .mf-panel-label { color: #a8bfdf; }
+.mf-catalog-symbol { color: #b5cdf1; font-size: 24px; line-height: 1; font-weight: 300; }
+.mf-catalog-card h2 { color: white; font-size: 31px; font-weight: 550; letter-spacing: -.045em; margin: 0 0 9px; }
+.mf-catalog-card p { color: #b0c1dc; font-size: 13px; margin-bottom: 28px; }
+.mf-catalog-actions { display: flex; flex-direction: column; gap: 16px; }
+.mf-catalog-card .mf-button { color: #1d3864 !important; background: #fff; border: 1px solid white; border-radius: 6px; min-height: 45px; padding: 11px 16px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 650; text-decoration: none; transition: background .15s; }
+.mf-catalog-card .mf-button:hover { background: #eaf0fd; }
+.mf-catalog-card .mf-button span { font-size: 19px; font-weight: 400; line-height: 1; }
+.mf-catalog-secondary { color: #c2d3ec !important; display: flex; justify-content: space-between; align-items: center; font-size: 12px; padding: 0 2px; }
+.mf-catalog-secondary span { font-size: 19px; line-height: 1; }
+.mf-knowledge { padding: 9px 0 2px 10px; }
+.mf-knowledge h2 { font-size: 24px; font-weight: 550; letter-spacing: -.035em; white-space: nowrap; }
+.mf-article-list { margin-bottom: 18px; }
+.mf-article { display: flex; align-items: center; gap: 20px; padding: 15px 0 16px; border-bottom: 1px solid $line; color: $ink !important; }
+.mf-article:first-child { padding-top: 2px; }
+.mf-article:hover { color: $blue !important; text-decoration: none; }
+.mf-article-copy { display: block; flex: 1; min-width: 0; }
+.mf-article-copy small { display: block; font-size: 9px; color: #8190a5; font-weight: 500; letter-spacing: .08em; margin-bottom: 6px; }
+.mf-article-copy strong { display: block; font-size: 14px; line-height: 1.45; font-weight: 550; letter-spacing: -.01em; }
+.mf-article-arrow { color: #7c8ea8; font-size: 19px; font-weight: 400; }
+.mf-archive-empty { color: $muted; padding: 19px 0 25px; font-size: 13px; }
+.mf-archive-empty p { margin: 0; }
+
+/* Compact native request controls and a calm, readable table. */
+.mf-requests { background: white; border: 1px solid #e0e7f0; border-radius: 12px; padding: 26px 26px 18px; box-shadow: 0 4px 16px rgba(30,50,85,.025); }
+.mf-requests-heading { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin-bottom: 21px; }
+.mf-requests-heading h2 { font-size: 25px; font-weight: 550; letter-spacing: -.04em; margin: 0; }
+.mf-refresh { border: 1px solid #e1e7ef; background: white; color: #526b8c; border-radius: 6px; padding: 8px 11px; min-height: 34px; font-size: 11px !important; white-space: nowrap; }
+.mf-refresh:hover { background: #f6f8fc; border-color: #bdcbe0; }
+.mf-refresh .glyphicon { margin-right: 7px; font-size: 9px; }
+.mf-request-board, .mf-request-board .table, .mf-request-board .table a, .mf-request-board .form-control, .mf-request-board .btn, .mf-request-board label { font-family: "Segoe UI", Arial, sans-serif !important; }
+.mf-request-board { font-size: 12px; }
+.mf-request-board .panel { border: 0; box-shadow: none; background: none; margin-bottom: 0; }
+.mf-request-board .panel-heading { padding: 0; background: none; border: 0; }
+.mf-request-board .panel-heading h2 { display: none; }
+.mf-request-board .panel-body { padding: 0; }
+.mf-request-board .list-group { margin-bottom: 0; }
+.mf-request-board .list-group-item { border: 0; border-radius: 0; background: white; padding: 0; }
+.mf-request-board .requests-header-container { background: none; border: 0; padding: 0 0 17px; margin: 0; }
+.mf-request-board .requests-header-container &gt; [class*="col-"] { padding-left: 0; padding-right: 0; }
+.mf-request-board .requests-header-container label { font-size: 11px; color: #8592a5; margin-right: 7px; font-weight: 400; }
+.mf-request-board .form-control { border: 1px solid #dfe6f0; border-radius: 6px; background: #f8fafd; color: #3e5573; box-shadow: none; font-size: 11px; min-height: 35px; }
+.mf-request-board input.form-control::placeholder { color: #8190a5; opacity: 1; }
+.mf-request-board .input-group-btn .btn { background: #f0f4fc; color: $blue; border-color: #dfe6f0; min-height: 35px; box-shadow: none; border-radius: 0 6px 6px 0; }
+.mf-request-board .input-group-btn .btn .fa, .mf-request-board .input-group-btn .btn .glyphicon { color: $blue; }
+.mf-request-board .table { font-size: 11px; margin-bottom: 0; border: 0; }
+.mf-request-board .table &gt; thead &gt; tr &gt; th { color: #7a8a9f; font-weight: 500; font-size: 10px; background: #f6f8fc; border: 0; padding: 11px 12px; letter-spacing: .02em; }
+.mf-request-board .table &gt; thead &gt; tr &gt; th:first-child { border-radius: 5px 0 0 5px; }
+.mf-request-board .table &gt; thead &gt; tr &gt; th:last-child { border-radius: 0 5px 5px 0; }
+.mf-request-board .table &gt; tbody &gt; tr &gt; td { padding: 16px 12px; vertical-align: top; border: 0; border-bottom: 1px solid #edf0f6; color: #566e8a; line-height: 1.6; }
+.mf-request-board .table &gt; tbody &gt; tr:hover &gt; td { background: #fafbfe; }
+.mf-request-board .table a { font-size: 12px; font-weight: 550; color: #365585; line-height: 1.5; }
+.mf-request-board .table .text-muted { color: #8493a8; font-size: 10px; }
+.mf-request-board .btn-default { border: 1px solid #dfe6f0; border-radius: 5px; color: #526b8c; background: white; font-size: 11px; }
+.mf-request-board .panel-footer { border: 0; background: none; padding: 15px 0 0; }
+.mf-request-board .panel-footer .btn { margin-bottom: 0; }
+.mf-request-error { color: #893e36; border: 1px solid #efd6d0; background: #fff6f3; border-radius: 6px; padding: 12px; font-size: 12px; }
+.mf-preview-note { color: $muted; font-size: 12px; margin: 0; }
+.mf-requests-empty { text-align: center; padding: 28px 20px 31px; color: $muted; }
+.mf-empty-icon { color: #9aacbf; margin: 0 auto 14px; font-size: 25px; }
+.mf-requests-empty h3 { color: #697e98; margin: 0 0 13px; font-size: 14px; font-weight: 400; }
+.mf-request-row { display: flex; gap: 11px; padding: 14px 0; border-bottom: 1px solid $line; font-size: 12px; }
+.mf-request-row strong { flex: 1; }
+
+/* Support is a quiet side rail, rather than a fourth boxed tile. */
+.mf-support { background: none; border: 0; border-left: 1px solid #dfe6ef; border-radius: 0; padding: 5px 0 4px 26px; margin: 0 0 0 3px; }
+.mf-support h2 { font-size: 21px; font-weight: 550; letter-spacing: -.035em; margin: 0; }
+.mf-support .mf-card-heading { margin-bottom: 19px; }
+.mf-faq-item { border-bottom: 1px solid $line; }
+.mf-faq-item button { border: 0; background: none; color: #526984; text-align: left; width: 100%; padding: 15px 0; min-height: 58px; display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: 12px; font-weight: 500; }
+.mf-faq-item button:hover { color: $blue; }
+.mf-faq-item button span { color: #8d9cb0; font-size: 16px; font-weight: 300; flex-shrink: 0; }
+.mf-faq-item p { font-size: 12px; line-height: 1.7; color: $muted; margin: 0; padding-bottom: 16px; }
+.mf-support-bottom { padding-top: 21px; }
+.mf-support .mf-text-link { color: #48658b; font-weight: 500; }
+.mf-footer { margin-top: 29px; padding-top: 18px; border-top: 1px solid $line; font-size: 9px; color: #91a0b4; display: flex; justify-content: space-between; gap: 9px; flex-wrap: wrap; }
+.mf-footer-brand { color: #72849e; font-size: 8px; letter-spacing: .09em; font-weight: 600; }
+
+@media (min-width: 992px) {
+  .mf-container-discover .row, .mf-container-backstage .row { display: flex; align-items: flex-start; }
+}
+@media (max-width: 1231px) {
+  .mf-noticeboard { margin-left: 32px; margin-right: 32px; }
+  .mf-hero-inner { gap: 35px; }
+}
+@media (max-width: 991px) {
+  .mf-nav { gap: 24px; }
+  .mf-hero-inner { grid-template-columns: .8fr 1.2fr; gap: 20px; }
+  .mf-hero h1 { font-size: 46px; }
+  .mf-search-label { font-size: 13px; }
+  .mf-search-field button { min-width: 77px; }
+  .mf-container-discover .row &gt; [class*="col-"] + [class*="col-"], .mf-container-backstage .row &gt; [class*="col-"] + [class*="col-"] { margin-top: 32px; }
+  .mf-knowledge { padding: 0 0 2px; }
+  .mf-support { margin: 0; padding: 0; border-left: 0; }
+  .mf-catalog-card { min-height: 0; }
+}
+@media (max-width: 767px) {
+  .mf-nav-inner { min-height: 70px; padding: 14px 22px; flex-wrap: wrap; gap: 0; }
+  .mf-logo { width: 35px; height: 35px; flex-basis: 35px; }
+  .mf-wordmark { font-size: 18px; }
+  .mf-wordmark small { font-size: 9px; margin-top: 5px; }
+  .mf-menu-toggle { display: block; }
+  .mf-nav { display: none; width: 100%; margin: 15px 0 0; border-top: 1px solid #33455f; padding-top: 8px; gap: 0; }
+  .mf-nav-open { display: flex; flex-direction: column; align-items: stretch; }
+  .mf-nav a { padding: 12px 2px; }
+  .mf-nav .mf-nav-action { padding: 12px 2px; border: 0; background: none; }
+  .mf-hero-inner { display: block; padding: 32px 22px 35px; }
+  .mf-eyebrow { font-size: 9px; }
+  .mf-hero h1 { font-size: 45px; line-height: 1.04; margin-top: 16px; }
+  .mf-hero-search { padding-top: 29px; }
+  .mf-search-label { font-size: 12px; margin-bottom: 12px; }
+  .mf-search-field { min-height: 61px; border-radius: 9px; padding: 5px; }
+  .mf-search-field &gt; .glyphicon { font-size: 16px; margin: 0 11px; }
+  .mf-search-field input { height: 49px; font-size: 16px; }
+  .mf-search-field button { min-width: 72px; height: 49px; padding: 0 14px; font-size: 12px; }
+  .mf-hero-links { margin-top: 17px; gap: 24px; }
+  .mf-hero-links a { font-size: 11px; }
+  .mf-hero-links a span { font-size: 13px; margin-left: 6px; }
+  .mf-noticeboard { margin: 0 22px 20px; padding: 18px 0; align-items: flex-start; gap: 11px; }
+  .mf-notice-icon { padding-top: 1px; font-size: 13px; flex-basis: 16px; width: 16px; }
+  .mf-notice-copy { display: block; }
+  .mf-noticeboard h2 { font-size: 11px; margin-bottom: 5px; }
+  .mf-noticeboard p { font-size: 11px; }
+  .mf-container-discover .mf-page, .mf-container-backstage .mf-page { padding-left: 22px; padding-right: 22px; }
+  .mf-container-discover { padding-top: 0; }
+  .mf-container-backstage { padding-top: 33px; padding-bottom: 35px; }
+  .mf-catalog-card { padding: 24px; border-radius: 10px; }
+  .mf-catalog-top { margin-bottom: 28px; }
+  .mf-catalog-card h2 { font-size: 29px; }
+  .mf-catalog-card p { font-size: 12px; margin-bottom: 25px; }
+  .mf-catalog-actions { gap: 17px; }
+  .mf-knowledge h2 { font-size: 24px; }
+  .mf-card-heading { margin-bottom: 21px; }
+  .mf-article { padding-top: 16px; padding-bottom: 17px; }
+  .mf-article-copy strong { font-size: 14px; }
+  .mf-requests { padding: 22px 16px 17px; border-radius: 10px; }
+  .mf-requests-heading { margin-bottom: 21px; }
+  .mf-requests-heading h2 { font-size: 24px; }
+  .mf-requests-heading .mf-panel-label { font-size: 8px; }
+  .mf-refresh { padding: 7px 9px; min-height: 33px; font-size: 10px !important; }
+  .mf-request-board .form-control { font-size: 16px; min-height: 38px; }
+  .mf-request-board .input-group-btn .btn { min-height: 38px; }
+  .mf-request-board .table { table-layout: fixed; width: 100%; font-size: 10px; }
+  .mf-request-board .table a { font-size: 11px; }
+  .mf-request-board .table &gt; thead &gt; tr &gt; th, .mf-request-board .table &gt; tbody &gt; tr &gt; td { padding: 12px 7px; overflow-wrap: anywhere; }
+  .mf-request-board .table &gt; thead &gt; tr &gt; th:first-child { width: 52%; }
+  .mf-request-board .table &gt; thead &gt; tr &gt; th:nth-child(2) { width: 23%; }
+  .mf-request-board .table &gt; thead &gt; tr &gt; th:nth-child(3) { width: 25%; }
+  .mf-support { padding-top: 0; }
+  .mf-support h2 { font-size: 22px; }
+  .mf-faq-item button { font-size: 13px; }
+  .mf-faq-item p { font-size: 13px; }
+  .mf-footer { font-size: 10px; margin-top: 30px; }
+  .mf-footer-brand { font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mf-page *, .mf-header * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</css><name>x_lab09_hello_worl_midnight_styles</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:09</sys_created_on><sys_id>245fb718491e491aba19b8ae36daa117</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_lab09_hello_worl_midnight_styles</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>sp_css_245fb718491e491aba19b8ae36daa117</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:09</sys_updated_on><turn_off_scss_compilation>false</turn_off_scss_compilation></sp_css></record_update>]]></payload>
+<payload_hash>-539008683</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>ebc598ee2f5453108b2f298a6fa4e3ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732906c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>x_lab09_hello_worl_midnight_styles</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>32e02f1267dc1310dc645277d167a861</update_guid>
+<update_guid_history>32e02f1267dc1310dc645277d167a861:398231280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_6383fc7e54c04fd1a3d07e4ec3d7d473</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($injector) {
+  var c = this;
+  c.announcementsKnown = false;
+  c.hasAnnouncements = false;
+  // The verified native widget uses this same visibility-filtered store.
+  if ($injector.has('spAnnouncement')) {
+    var service = $injector.get('spAnnouncement');
+    var result = service.get(service.filterOnType(''), 3, 1);
+    if (result &amp;&amp; result.data) {
+      c.announcementsKnown = true;
+      c.hasAnnouncements = result.data.length &gt; 0;
+    }
+  }
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Displays the native Announcements widget.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;x_lab09_hello_worl_midnight_announcement&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+}]]&gt;&lt;/link&gt;&lt;name&gt;LAB09 — Announcements&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+    // Verified native widget. Leave its client-side announcement visibility logic intact.
+    data.announcementsWidget = $sp.getWidget('94c300c7e777320075c2a117c2f6a9e7', {
+        title: 'Announcements', max_records: 3, paginate: 'true',
+        use_display_style: 'false', type: ''
+    });
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:10&lt;/sys_created_on&gt;&lt;sys_id&gt;6383fc7e54c04fd1a3d07e4ec3d7d473&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LAB09 — Announcements&lt;/sys_name&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_6383fc7e54c04fd1a3d07e4ec3d7d473&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 15:05:57&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section id="mf-noticeboard" class="mf-noticeboard" aria-labelledby="mf-notice-title"&gt;
+  &lt;div class="mf-notice-icon" aria-hidden="true"&gt;&lt;span class="glyphicon glyphicon-bullhorn"&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;div class="mf-notice-copy"&gt;
+    &lt;h2 id="mf-notice-title"&gt;Announcements&lt;/h2&gt;
+    &lt;p ng-if="c.announcementsKnown &amp;amp;&amp;amp; !c.hasAnnouncements"&gt;No announcements right now.&lt;/p&gt;
+    &lt;p ng-if="c.data.localPreview"&gt;Announcements load on ServiceNow.&lt;/p&gt;
+    &lt;div class="mf-native-announcements" ng-if="c.data.announcementsWidget &amp;amp;&amp;amp; (!c.announcementsKnown || c.hasAnnouncements)"&gt;&lt;sp-widget widget="c.data.announcementsWidget"&gt;&lt;/sp-widget&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>153783037</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>ebc598ee2f5453108b2f298a6fa4e3e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732921d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>LAB09 — Announcements</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>883e44eeb914531068630c741e5ebf58</update_guid>
+<update_guid_history>883e44eeb914531068630c741e5ebf58:153783037,3ae02f1246dc131091d90f18ae130de6:-23106921</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_portal_knowledge_base_6159ab722ea645a48491d5db777d35a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base"><m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base><order>100</order><sp_portal display_value="LAB09 Service Portal">2c0bf7f909364e16927cb72cbbd4a090</sp_portal><sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:08</sys_created_on><sys_id>6159ab722ea645a48491d5db777d35a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IT.</sys_name><sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl">d02a2003fd1f4a7698b9995b314584cd</sys_package><sys_policy/><sys_scope display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</sys_scope><sys_update_name>m2m_sp_portal_knowledge_base_6159ab722ea645a48491d5db777d35a0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:08</sys_updated_on></m2m_sp_portal_knowledge_base></record_update>]]></payload>
+<payload_hash>131739761</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>efc598ee2f5453108b2f298a6fa4e3c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a73290240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>IT.</target_name>
+<type>Portal Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_guid>22e02f1255dc1310c52d4222e152ef0a</update_guid>
+<update_guid_history>22e02f1255dc1310c52d4222e152ef0a:1961598133</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_08f6d943c97943cf97e1419d290c65ea</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_announcements_i&lt;/id&gt;&lt;order&gt;200&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="100"&gt;ee3c7666dec54accb9afac7a53b62fdb&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — Announcements"&gt;6383fc7e54c04fd1a3d07e4ec3d7d473&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;08f6d943c97943cf97e1419d290c65ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_08f6d943c97943cf97e1419d290c65ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:30&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=08f6d943c97943cf97e1419d290c65ea"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2147471503</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>efc598ee2f5453108b2f298a6fa4e3cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732912c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>5ea4235a1adc13103653b6324f02a475</update_guid>
+<update_guid_history>5ea4235a1adc13103653b6324f02a475:258232689,f2e02f123bdc1310894305edd3513591:-1509947768</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_4309350ce5a0410382ae7993cd4d4702</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id&gt;x_lab09_hello_worl_mf_knowledge_i&lt;/id&gt;&lt;order&gt;200&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {
+	"mobile": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"desktop": {
+		"height": "250px",
+		"width": "100%"
+	},
+	"tablet": {
+		"height": "250px",
+		"width": "100%"
+	}
+}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!--
+	AngularJS template with configurable options.
+	Use the "options" object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The "skeleton-container" class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="200"&gt;ba74c50d59ca492db8e468268e14061c&lt;/sp_column&gt;&lt;sp_widget display_value="LAB09 — Knowledge base"&gt;31a4c937a7d046aa94e65aeb6264fded&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-04 11:48:09&lt;/sys_created_on&gt;&lt;sys_id&gt;4309350ce5a0410382ae7993cd4d4702&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="GAKO_JoanaCarla Hello World Portal" source="x_lab09_hello_worl"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAKO_JoanaCarla Hello World Portal"&gt;d02a2003fd1f4a7698b9995b314584cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_4309350ce5a0410382ae7993cd4d4702&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-04 12:04:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4309350ce5a0410382ae7993cd4d4702"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-696622379</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>efc598ee2f5453108b2f298a6fa4e3d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a732914a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1ea4235a56dc1310c30539222b60fe95</update_guid>
+<update_guid_history>1ea4235a56dc1310c30539222b60fe95:218514233,bae02f1245dc1310af064a0d706ea195:1198250077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="GAKO_JoanaCarla Hello World Portal">d02a2003fd1f4a7698b9995b314584cd</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_d02a2003fd1f4a7698b9995b314584cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created/><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>GAKO_JoanaCarla Hello World Portal</name><package_json display_value="x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json" path="x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json">x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json</package_json><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_lab09_hello_worl</scope><scoped_administration>false</scoped_administration><short_description/><sn_managed>false</sn_managed><source>x_lab09_hello_worl</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-04 11:48:03</sys_created_on><sys_id>d02a2003fd1f4a7698b9995b314584cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-04 11:48:03</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>0.0.1</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=d02a2003fd1f4a7698b9995b314584cd"/></record_update>]]></payload>
+<payload_hash>255643508</payload_hash>
+<remote_update_set display_value="GAKO_JoanaCarla Hello World Portal">23c598ee2f5453108b2f298a6fa4e3c2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-04 15:39:13</sys_created_on>
+<sys_id>efc598ee2f5453108b2f298a6fa4e3e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1a7328fda0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-04 15:39:13</sys_updated_on>
+<table/>
+<target_name>GAKO_JoanaCarla Hello World Portal</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

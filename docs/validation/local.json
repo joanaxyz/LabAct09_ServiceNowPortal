@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-11-04T15:30:38.121Z",
+  "status": "PASS",
+  "sdk": "4.14.0",
+  "stage": "local-build",
+  "containers": [
+    {
+      "name": "Welcome & announcements",
+      "sys_id": "e692ac3d036b4970834e4416f281b0ce",
+      "instances": [
+        {
+          "sys_id": "08f6d943c97943cf97e1419d290c65ea",
+          "id": "x_lab09_hello_worl_mf_announcements_i",
+          "widget": "6383fc7e54c04fd1a3d07e4ec3d7d473"
+        },
+        {
+          "sys_id": "e7b914cef1794d6ca98ab31dc63bb00c",
+          "id": "x_lab09_hello_worl_mf_hero_i",
+          "widget": "fcad0c3d67b54481b1d5084d4ea5f788"
+        }
+      ]
+    },
+    {
+      "name": "Services & knowledge",
+      "sys_id": "22247889d01e4831b0c2b9318d53e4ea",
+      "instances": [
+        {
+          "sys_id": "015ccb4cd7704a138e59c123c9b9ebe2",
+          "id": "x_lab09_hello_worl_mf_catalog_i",
+          "widget": "a43d77f11a6b4f9caad164cf10f60d56"
+        },
+        {
+          "sys_id": "4309350ce5a0410382ae7993cd4d4702",
+          "id": "x_lab09_hello_worl_mf_knowledge_i",
+          "widget": "31a4c937a7d046aa94e65aeb6264fded"
+        }
+      ]
+    },
+    {
+      "name": "Requests & help",
+      "sys_id": "43ccb17374d54ee28a67b0eba24a8ae2",
+      "instances": [
+        {
+          "sys_id": "624d0da2bde24aee9347b8254bc72077",
+          "id": "x_lab09_hello_worl_mf_requests_i",
+          "widget": "f057ce3e04cd4ba4b2f6b32fe693d689"
+        },
+        {
+          "sys_id": "cf1c81bf4f854afd862a15ec94270665",
+          "id": "x_lab09_hello_worl_mf_support_i",
+          "widget": "380db8f00e7b44e6a4a18c811ccd8553"
+        }
+      ]
+    }
+  ],
+  "artwork": [
+    {
+      "file": "lab09-logo.svg",
+      "attachment": "41ebb6a44860cb5043df1cda66fc4cd9",
+      "bytes": 293,
+      "sha256": "d7eb1e869c9be784ee0d10c05cdb609166912f9973d2071aab981cbda3e579cd"
+    }
+  ],
+  "records": [
+    {
+      "table": "sys_app",
+      "sys_id": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "GAKO_JoanaCarla Hello World Portal",
+      "file": "sys_app_d02a2003fd1f4a7698b9995b314584cd.xml"
+    },
+    {
+      "table": "m2m_sp_portal_catalog",
+      "sys_id": "105aadd161e54ec08b1f9993ca6016be",
+      "name": "",
+      "file": "m2m_sp_portal_catalog_105aadd161e54ec08b1f9993ca6016be.xml"
+    },
+    {
+      "table": "m2m_sp_portal_knowledge_base",
+      "sys_id": "6159ab722ea645a48491d5db777d35a0",
+      "name": "",
+      "file": "m2m_sp_portal_knowledge_base_6159ab722ea645a48491d5db777d35a0.xml"
+    },
+    {
+      "table": "m2m_sp_portal_search_source",
+      "sys_id": "114a12e29fae4999936de3e618bedb04",
+      "name": "",
+      "file": "m2m_sp_portal_search_source_114a12e29fae4999936de3e618bedb04.xml"
+    },
+    {
+      "table": "m2m_sp_portal_search_source",
+      "sys_id": "1654ed70bc604c77bd4fbc1889e9cfcd",
+      "name": "",
+      "file": "m2m_sp_portal_search_source_1654ed70bc604c77bd4fbc1889e9cfcd.xml"
+    },
+    {
+      "table": "m2m_sp_theme_css_include",
+      "sys_id": "fd97e76fb49b4c4997a53daaae462a1e",
+      "name": "",
+      "file": "m2m_sp_theme_css_include_fd97e76fb49b4c4997a53daaae462a1e.xml"
+    },
+    {
+      "table": "sp_column",
+      "sys_id": "2085c47d564043fa95c7e56c2ab86a17",
+      "name": "",
+      "file": "sp_column_2085c47d564043fa95c7e56c2ab86a17.xml"
+    },
+    {
+      "table": "sp_column",
+      "sys_id": "ba74c50d59ca492db8e468268e14061c",
+      "name": "",
+      "file": "sp_column_ba74c50d59ca492db8e468268e14061c.xml"
+    },
+    {
+      "table": "sp_column",
+      "sys_id": "c0c843c189594a73a86f17f9573d8a2f",
+      "name": "",
+      "file": "sp_column_c0c843c189594a73a86f17f9573d8a2f.xml"
+    },
+    {
+      "table": "sp_column",
+      "sys_id": "ee3c7666dec54accb9afac7a53b62fdb",
+      "name": "",
+      "file": "sp_column_ee3c7666dec54accb9afac7a53b62fdb.xml"
+    },
+    {
+      "table": "sp_column",
+      "sys_id": "ef79085b36bf4dd0996d577184807162",
+      "name": "",
+      "file": "sp_column_ef79085b36bf4dd0996d577184807162.xml"
+    },
+    {
+      "table": "sp_container",
+      "sys_id": "22247889d01e4831b0c2b9318d53e4ea",
+      "name": "Services & knowledge",
+      "file": "sp_container_22247889d01e4831b0c2b9318d53e4ea.xml"
+    },
+    {
+      "table": "sp_container",
+      "sys_id": "43ccb17374d54ee28a67b0eba24a8ae2",
+      "name": "Requests & help",
+      "file": "sp_container_43ccb17374d54ee28a67b0eba24a8ae2.xml"
+    },
+    {
+      "table": "sp_container",
+      "sys_id": "e692ac3d036b4970834e4416f281b0ce",
+      "name": "Welcome & announcements",
+      "file": "sp_container_e692ac3d036b4970834e4416f281b0ce.xml"
+    },
+    {
+      "table": "sp_css",
+      "sys_id": "245fb718491e491aba19b8ae36daa117",
+      "name": "x_lab09_hello_worl_midnight_styles",
+      "file": "sp_css_245fb718491e491aba19b8ae36daa117.xml"
+    },
+    {
+      "table": "sp_css_include",
+      "sys_id": "95267df8a9244d99955190310f133e58",
+      "name": "LAB09 — Shared styles",
+      "file": "sp_css_include_95267df8a9244d99955190310f133e58.xml"
+    },
+    {
+      "table": "sp_header_footer",
+      "sys_id": "51b3d138ac5d4611a75f52a75679514e",
+      "name": "LAB09 — Navigation",
+      "file": "sp_header_footer_51b3d138ac5d4611a75f52a75679514e.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "015ccb4cd7704a138e59c123c9b9ebe2",
+      "name": "x_lab09_hello_worl_mf_catalog_i",
+      "file": "sp_instance_015ccb4cd7704a138e59c123c9b9ebe2.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "08f6d943c97943cf97e1419d290c65ea",
+      "name": "x_lab09_hello_worl_mf_announcements_i",
+      "file": "sp_instance_08f6d943c97943cf97e1419d290c65ea.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "4309350ce5a0410382ae7993cd4d4702",
+      "name": "x_lab09_hello_worl_mf_knowledge_i",
+      "file": "sp_instance_4309350ce5a0410382ae7993cd4d4702.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "624d0da2bde24aee9347b8254bc72077",
+      "name": "x_lab09_hello_worl_mf_requests_i",
+      "file": "sp_instance_624d0da2bde24aee9347b8254bc72077.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "cf1c81bf4f854afd862a15ec94270665",
+      "name": "x_lab09_hello_worl_mf_support_i",
+      "file": "sp_instance_cf1c81bf4f854afd862a15ec94270665.xml"
+    },
+    {
+      "table": "sp_instance",
+      "sys_id": "e7b914cef1794d6ca98ab31dc63bb00c",
+      "name": "x_lab09_hello_worl_mf_hero_i",
+      "file": "sp_instance_e7b914cef1794d6ca98ab31dc63bb00c.xml"
+    },
+    {
+      "table": "sp_page",
+      "sys_id": "e11f9468c0a4499d9ea3771962bfae2d",
+      "name": "LAB09 Service Portal",
+      "file": "sp_page_e11f9468c0a4499d9ea3771962bfae2d.xml"
+    },
+    {
+      "table": "sp_portal",
+      "sys_id": "2c0bf7f909364e16927cb72cbbd4a090",
+      "name": "LAB09 Service Portal",
+      "file": "sp_portal_2c0bf7f909364e16927cb72cbbd4a090.xml"
+    },
+    {
+      "table": "sys_attachment",
+      "sys_id": "41ebb6a44860cb5043df1cda66fc4cd9",
+      "name": "logo",
+      "file": "sp_portal_2c0bf7f909364e16927cb72cbbd4a090.xml"
+    },
+    {
+      "table": "sp_row",
+      "sys_id": "657c1e8f59cb45e595ac8092f076466f",
+      "name": "",
+      "file": "sp_row_657c1e8f59cb45e595ac8092f076466f.xml"
+    },
+    {
+      "table": "sp_row",
+      "sys_id": "7e042718b5174ed08731c570c14c0bb7",
+      "name": "",
+      "file": "sp_row_7e042718b5174ed08731c570c14c0bb7.xml"
+    },
+    {
+      "table": "sp_row",
+      "sys_id": "db34ec029b804d6dbca3a0b101236124",
+      "name": "",
+      "file": "sp_row_db34ec029b804d6dbca3a0b101236124.xml"
+    },
+    {
+      "table": "sp_theme",
+      "sys_id": "daa67a9829e54159b964de395b538acd",
+      "name": "LAB09 — Service Portal theme",
+      "file": "sp_theme_daa67a9829e54159b964de395b538acd.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "31a4c937a7d046aa94e65aeb6264fded",
+      "name": "LAB09 — Knowledge base",
+      "file": "sp_widget_31a4c937a7d046aa94e65aeb6264fded.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "380db8f00e7b44e6a4a18c811ccd8553",
+      "name": "LAB09 — Help",
+      "file": "sp_widget_380db8f00e7b44e6a4a18c811ccd8553.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "6383fc7e54c04fd1a3d07e4ec3d7d473",
+      "name": "LAB09 — Announcements",
+      "file": "sp_widget_6383fc7e54c04fd1a3d07e4ec3d7d473.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "a43d77f11a6b4f9caad164cf10f60d56",
+      "name": "LAB09 — Service catalog",
+      "file": "sp_widget_a43d77f11a6b4f9caad164cf10f60d56.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "f057ce3e04cd4ba4b2f6b32fe693d689",
+      "name": "LAB09 — My requests",
+      "file": "sp_widget_f057ce3e04cd4ba4b2f6b32fe693d689.xml"
+    },
+    {
+      "table": "sp_widget",
+      "sys_id": "fcad0c3d67b54481b1d5084d4ea5f788",
+      "name": "LAB09 — Welcome and search",
+      "file": "sp_widget_fcad0c3d67b54481b1d5084d4ea5f788.xml"
+    },
+    {
+      "table": "sys_module",
+      "sys_id": "6968217633ae4655bc2ca0442fc99eb3",
+      "name": "",
+      "file": "sys_module_6968217633ae4655bc2ca0442fc99eb3.xml"
+    },
+    {
+      "table": "sys_module",
+      "sys_id": "d75852940bb249d4ae13bcd7cfc4668f",
+      "name": "",
+      "file": "sys_module_d75852940bb249d4ae13bcd7cfc4668f.xml"
+    }
+  ],
+  "checks": [
+    "3 real generated sp_container records",
+    "2 active sp_instance records per container; 6 total",
+    "6 distinct custom sp_widget definitions",
+    "same page sys_id with verified available new page ID",
+    "dedicated non-default portal",
+    "all OOTB references verified on instance",
+    "protected default and /sp portals excluded",
+    "original logo binary matches source",
+    "no movie imagery or image properties packaged",
+    "SCSS compiles",
+    "ES5 widget scripts parse",
+    "search safely URL encodes input",
+    "knowledge visibility gate excludes denied article"
+  ]
+}

@@ -1,0 +1,9 @@
+<section id="mf-noticeboard" class="mf-noticeboard" aria-labelledby="mf-notice-title">
+  <div class="mf-notice-icon" aria-hidden="true"><span class="glyphicon glyphicon-bullhorn"></span></div>
+  <div class="mf-notice-copy">
+    <h2 id="mf-notice-title">Announcements</h2>
+    <p ng-if="c.announcementsKnown &amp;&amp; !c.hasAnnouncements">No announcements right now.</p>
+    <p ng-if="c.data.localPreview">Announcements load on ServiceNow.</p>
+    <div class="mf-native-announcements" ng-if="c.data.announcementsWidget &amp;&amp; (!c.announcementsKnown || c.hasAnnouncements)"><sp-widget widget="c.data.announcementsWidget"></sp-widget></div>
+  </div>
+</section>

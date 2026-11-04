@@ -1,0 +1,264 @@
+{
+  "checkedAt": "2026-11-04T11:46:43.702Z",
+  "sdk": "4.14.0",
+  "instance": "https://dev431102.service-now.com",
+  "mode": "preflight",
+  "checks": {
+    "portal": {
+      "table": "sp_portal",
+      "query": "url_suffix=x_lab09_hello_worl_midnight",
+      "fields": "sys_id,title,url_suffix,homepage,theme,default,sys_scope",
+      "records": []
+    },
+    "home": {
+      "table": "sp_page",
+      "query": "id=x_lab09_hello_worl_midnight_home",
+      "fields": "sys_id,id,title,public,sys_scope",
+      "records": []
+    },
+    "widgetIdentities": {
+      "table": "sp_widget",
+      "query": "idINx_lab09_hello_worl_midnight_hero,x_lab09_hello_worl_midnight_announcements,x_lab09_hello_worl_midnight_catalog,x_lab09_hello_worl_midnight_knowledge,x_lab09_hello_worl_midnight_requests,x_lab09_hello_worl_midnight_support,x_lab09_hello_worl_midnight_header",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": []
+    },
+    "headerIdentity": {
+      "table": "sp_header_footer",
+      "query": "id=x_lab09_hello_worl_midnight_header",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": []
+    },
+    "instanceIdentities": {
+      "table": "sp_instance",
+      "query": "idINx_lab09_hello_worl_midnight_hero_instance,x_lab09_hello_worl_midnight_announcements_instance,x_lab09_hello_worl_midnight_catalog_instance,x_lab09_hello_worl_midnight_knowledge_instance,x_lab09_hello_worl_midnight_requests_instance,x_lab09_hello_worl_midnight_support_instance",
+      "fields": "sys_id,id,sp_widget,sp_column,active,order",
+      "records": []
+    },
+    "nativeWidgets": {
+      "table": "sp_widget",
+      "query": "sys_idIN8cc0df25875023000f220cf888cb0bb5,94c300c7e777320075c2a117c2f6a9e7,200fbd96cb20020000f8d856634c9ca1,12fbe2d287330300a785940307cb0b1b,5b255672cb03020000f8d856634c9c28",
+      "fields": "sys_id,id,name,sys_scope",
+      "records": [
+        {
+          "sys_id": "12fbe2d287330300a785940307cb0b1b",
+          "name": "Faceted Search",
+          "sys_scope": "global",
+          "id": "faceted_search"
+        },
+        {
+          "sys_id": "200fbd96cb20020000f8d856634c9ca1",
+          "name": "Homepage Search",
+          "sys_scope": "global",
+          "id": ""
+        },
+        {
+          "sys_id": "5b255672cb03020000f8d856634c9c28",
+          "name": "Simple List",
+          "sys_scope": "global",
+          "id": "widget-simple-list"
+        },
+        {
+          "sys_id": "8cc0df25875023000f220cf888cb0bb5",
+          "name": "My Requests",
+          "sys_scope": "global",
+          "id": "my-requests-v2"
+        },
+        {
+          "sys_id": "94c300c7e777320075c2a117c2f6a9e7",
+          "name": "Announcements",
+          "sys_scope": "global",
+          "id": "announcements"
+        }
+      ]
+    },
+    "nativePages": {
+      "table": "sp_page",
+      "query": "idINsc_home,sc_category,sc_cat_item,kb_view,kb_article,search,my_requests,ticket,login,404",
+      "fields": "sys_id,id,title,public,sys_scope",
+      "records": [
+        {
+          "sys_id": "07261a2147132100ba13a5554ee49092",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_category",
+          "title": "Catalog Categories"
+        },
+        {
+          "sys_id": "3c2c9063cb11020000f8d856634c9c1f",
+          "public": "true",
+          "sys_scope": "global",
+          "id": "404",
+          "title": "Not Found"
+        },
+        {
+          "sys_id": "4ab7a3a5875023000f220cf888cb0bec",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "my_requests",
+          "title": "Requests"
+        },
+        {
+          "sys_id": "6995a144cb11120000f8d856634c9c25",
+          "public": "true",
+          "sys_scope": "global",
+          "id": "login",
+          "title": "Login"
+        },
+        {
+          "sys_id": "84af292247132100ba13a5554ee4909e",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "ticket",
+          "title": "Ticket Form"
+        },
+        {
+          "sys_id": "87466b63c3223100c8b837659bba8feb",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "search",
+          "title": "Search"
+        },
+        {
+          "sys_id": "9f12251147132100ba13a5554ee490f4",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_cat_item",
+          "title": "Catalog Item"
+        },
+        {
+          "sys_id": "db9fcab847101200ba13a5554ee490cf",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "kb_view",
+          "title": "Knowledge Base"
+        },
+        {
+          "sys_id": "dea5792147132100ba13a5554ee4902d",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "kb_article",
+          "title": "Knowledge Base"
+        },
+        {
+          "sys_id": "fe87a11147132100ba13a5554ee490b9",
+          "public": "false",
+          "sys_scope": "global",
+          "id": "sc_home",
+          "title": "Catalog Home"
+        }
+      ]
+    },
+    "nativeThemes": {
+      "table": "sp_theme",
+      "query": "sys_idIN281507c44317d210ca4c1f425db8f2fd,79315153cb33310000f8d856634c9c4b",
+      "fields": "sys_id,name",
+      "records": [
+        {
+          "sys_id": "281507c44317d210ca4c1f425db8f2fd",
+          "name": "Coral"
+        },
+        {
+          "sys_id": "79315153cb33310000f8d856634c9c4b",
+          "name": "Stock"
+        }
+      ]
+    },
+    "catalog": {
+      "table": "sc_catalog",
+      "query": "sys_id=e0d08b13c3330100c8b837659bba8fb4",
+      "fields": "sys_id,title,active",
+      "records": [
+        {
+          "sys_id": "e0d08b13c3330100c8b837659bba8fb4",
+          "active": "true",
+          "title": "Service Catalog"
+        }
+      ]
+    },
+    "knowledge": {
+      "table": "kb_knowledge_base",
+      "query": "sys_id=a7e8a78bff0221009b20ffffffffff17",
+      "fields": "sys_id,title,active",
+      "records": [
+        {
+          "sys_id": "a7e8a78bff0221009b20ffffffffff17",
+          "active": "true",
+          "title": "IT"
+        }
+      ]
+    },
+    "searchSources": {
+      "table": "sp_search_source",
+      "query": "sys_idINc6170ae86721220023c82e08f585efe6,c96eb1686721220023c82e08f585efff",
+      "fields": "sys_id,id,name",
+      "records": [
+        {
+          "sys_id": "c6170ae86721220023c82e08f585efe6",
+          "name": "Knowledge Bases",
+          "id": "kb"
+        },
+        {
+          "sys_id": "c96eb1686721220023c82e08f585efff",
+          "name": "Catalogs",
+          "id": "sc"
+        }
+      ]
+    },
+    "artworkProperties": {
+      "table": "sys_properties",
+      "query": "nameINx_lab09_hello_worl.midnight.art.hero,x_lab09_hello_worl.midnight.art.mystery,x_lab09_hello_worl.midnight.art.drama,x_lab09_hello_worl.midnight.art.scifi",
+      "fields": "sys_id,name,value",
+      "records": []
+    },
+    "stylesheetIdentity": {
+      "table": "sp_css",
+      "query": "name=x_lab09_hello_worl_midnight_styles",
+      "fields": "sys_id,name",
+      "records": []
+    },
+    "existingUpdateSet": {
+      "table": "sys_update_set",
+      "query": "name=GAKO_JoanaCarla Hello World Portal",
+      "fields": "sys_id,name,state,application",
+      "records": [
+        {
+          "sys_id": "7e37b29a2f5813108b2f298a6fa4e303",
+          "application": "global",
+          "name": "GAKO_JoanaCarla Hello World Portal",
+          "state": "in progress"
+        }
+      ]
+    },
+    "existingCapturedMetadata": {
+      "table": "sys_update_xml",
+      "query": "update_set=7e37b29a2f5813108b2f298a6fa4e303",
+      "fields": "sys_id,name,type,target_name,sys_updated_on",
+      "records": []
+    },
+    "protectedPortals": {
+      "table": "sp_portal",
+      "query": "sys_idIN70cd9f3b734b13001fdae9c54cf6a72f,81b75d3147032100ba13a5554ee4902b",
+      "fields": "sys_id,title,url_suffix,homepage,theme,default,sys_updated_on",
+      "records": [
+        {
+          "sys_id": "70cd9f3b734b13001fdae9c54cf6a72f",
+          "default": "true",
+          "url_suffix": "esc",
+          "theme": "ee2e485f9c0b5250f877097911a1a148",
+          "sys_updated_on": "2026-10-06 20:29:05",
+          "title": "Employee Center",
+          "homepage": "0987d9aa53331210b8f2ddeeff7b129d"
+        },
+        {
+          "sys_id": "81b75d3147032100ba13a5554ee4902b",
+          "default": "false",
+          "url_suffix": "sp",
+          "theme": "281507c44317d210ca4c1f425db8f2fd",
+          "sys_updated_on": "2026-10-06 20:33:04",
+          "title": "Service Portal ",
+          "homepage": "46cc384147532100ba13a5554ee49009"
+        }
+      ]
+    }
+  }
+}

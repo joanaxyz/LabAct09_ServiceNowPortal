@@ -1,0 +1,8 @@
+<section id="mf-notes" class="mf-card mf-knowledge" aria-labelledby="mf-notes-title">
+  <div class="mf-card-heading"><h2 id="mf-notes-title">Knowledge base</h2><span class="mf-heading-line" aria-hidden="true"></span></div>
+  <div class="mf-article-list">
+    <a class="mf-article" ng-repeat="article in c.data.articles track by $index" ng-href="{{article.url}}"><span class="mf-article-copy"><small>{{article.number}}</small><strong>{{article.title}}</strong></span><span class="mf-article-arrow" aria-hidden="true">↗</span></a>
+    <div class="mf-archive-empty" ng-if="!c.data.articles.length"><p ng-if="!c.data.knowledgeError">No articles to show.</p><p ng-if="c.data.knowledgeError" role="status">{{c.data.knowledgeError}}</p></div>
+  </div>
+  <a class="mf-text-link" ng-href="{{c.data.knowledgeUrl}}">All articles <span aria-hidden="true">→</span></a>
+</section>

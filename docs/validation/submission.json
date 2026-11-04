@@ -1,0 +1,433 @@
+{
+  "checkedAt": "2026-11-04T15:36:51.177Z",
+  "set": {
+    "sys_id": "82b45c2e2f5453108b2f298a6fa4e34c",
+    "application": "d02a2003fd1f4a7698b9995b314584cd",
+    "name": "GAKO_JoanaCarla Hello World Portal",
+    "description": "Laboratory 09 service portal: sleek navy and blue design, original logo, three real containers and six active widget instances, native search, catalog, knowledge, requests and help. No demo data.",
+    "state": "complete"
+  },
+  "children": [],
+  "customerUpdates": 46,
+  "customerUpdatesBySet": [
+    {
+      "sys_id": "82b45c2e2f5453108b2f298a6fa4e34c",
+      "name": "GAKO_JoanaCarla Hello World Portal",
+      "count": 46
+    }
+  ],
+  "recordCounts": {
+    "m2m_sp_portal_catalog": 1,
+    "m2m_sp_portal_knowledge_base": 1,
+    "m2m_sp_portal_search_source": 2,
+    "m2m_sp_theme_css_include": 1,
+    "sp_column": 5,
+    "sp_container": 3,
+    "sp_css": 1,
+    "sp_css_include": 1,
+    "sp_header_footer": 1,
+    "sp_instance": 6,
+    "sys_translated_text": 13,
+    "sp_page": 1,
+    "sp_portal": 1,
+    "sys_attachment": 1,
+    "sys_attachment_doc": 2,
+    "sp_row": 3,
+    "sp_theme": 1,
+    "sp_widget": 6,
+    "sys_app": 1,
+    "sys_module": 2,
+    "sys_properties": 4,
+    "sys_scope_privilege": 5
+  },
+  "missingExpectedRecords": [],
+  "attachmentRecords": [
+    {
+      "sys_id": "41ebb6a44860cb5043df1cda66fc4cd9",
+      "file_name": "logo",
+      "table_name": "ZZ_YYsp_portal",
+      "table_sys_id": "2c0bf7f909364e16927cb72cbbd4a090"
+    }
+  ],
+  "attachmentChunks": 2,
+  "binaries": [
+    {
+      "sys_id": "41ebb6a44860cb5043df1cda66fc4cd9",
+      "bytes": 293,
+      "sha256": "d7eb1e869c9be784ee0d10c05cdb609166912f9973d2071aab981cbda3e579cd"
+    }
+  ],
+  "scopeConsistency": "PASS",
+  "businessDataExcluded": true,
+  "updates": [
+    {
+      "sys_id": "62b4906e2f5453108b2f298a6fa4e34e",
+      "target_name": "Service Catalog.",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "m2m_sp_portal_catalog_105aadd161e54ec08b1f9993ca6016be",
+      "type": "Portal Catalog",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "a2b4906e2f5453108b2f298a6fa4e353",
+      "target_name": "IT.",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "m2m_sp_portal_knowledge_base_6159ab722ea645a48491d5db777d35a0",
+      "type": "Portal Knowledge Base",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2eb4906e2f5453108b2f298a6fa4e34f",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "m2m_sp_portal_search_source_114a12e29fae4999936de3e618bedb04",
+      "type": "Search Source",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "e6b4906e2f5453108b2f298a6fa4e351",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "m2m_sp_portal_search_source_1654ed70bc604c77bd4fbc1889e9cfcd",
+      "type": "Search Source",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "22b4906e2f5453108b2f298a6fa4e355",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "m2m_sp_theme_css_include_fd97e76fb49b4c4997a53daaae462a1e",
+      "type": "Stylesheets",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eab4906e2f5453108b2f298a6fa4e356",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_column_2085c47d564043fa95c7e56c2ab86a17",
+      "type": "Column",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eab4906e2f5453108b2f298a6fa4e39c",
+      "target_name": "200",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_column_ba74c50d59ca492db8e468268e14061c",
+      "type": "Column",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "26b4906e2f5453108b2f298a6fa4e39e",
+      "target_name": "200",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_column_c0c843c189594a73a86f17f9573d8a2f",
+      "type": "Column",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "6eb4906e2f5453108b2f298a6fa4e37e",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_column_ee3c7666dec54accb9afac7a53b62fdb",
+      "type": "Column",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2ab4906e2f5453108b2f298a6fa4e380",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_column_ef79085b36bf4dd0996d577184807162",
+      "type": "Column",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "26b4906e2f5453108b2f298a6fa4e359",
+      "target_name": "Services & knowledge",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_container_22247889d01e4831b0c2b9318d53e4ea",
+      "type": "Container",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2ab4906e2f5453108b2f298a6fa4e35c",
+      "target_name": "Requests & help",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_container_43ccb17374d54ee28a67b0eba24a8ae2",
+      "type": "Container",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2ab4906e2f5453108b2f298a6fa4e3a5",
+      "target_name": "Welcome & announcements",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_container_e692ac3d036b4970834e4416f281b0ce",
+      "type": "Container",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "6eb4906e2f5453108b2f298a6fa4e35a",
+      "target_name": "x_lab09_hello_worl_midnight_styles",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_css_245fb718491e491aba19b8ae36daa117",
+      "type": "Style Sheet",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "b2b4906e2f5453108b2f298a6fa4e3b2",
+      "target_name": "LAB09 — Shared styles",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_css_include_95267df8a9244d99955190310f133e58",
+      "type": "CSS Include",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "b6b4906e2f5453108b2f298a6fa4e3ae",
+      "target_name": "LAB09 — Navigation",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_header_footer_51b3d138ac5d4611a75f52a75679514e",
+      "type": "Header | Footer",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "26b4906e2f5453108b2f298a6fa4e391",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_015ccb4cd7704a138e59c123c9b9ebe2",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eeb4906e2f5453108b2f298a6fa4e38e",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_08f6d943c97943cf97e1419d290c65ea",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "6ab4906e2f5453108b2f298a6fa4e393",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_4309350ce5a0410382ae7993cd4d4702",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "aeb4906e2f5453108b2f298a6fa4e395",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_624d0da2bde24aee9347b8254bc72077",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "e2b4906e2f5453108b2f298a6fa4e398",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_cf1c81bf4f854afd862a15ec94270665",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "a2b4906e2f5453108b2f298a6fa4e39b",
+      "target_name": "",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_instance_e7b914cef1794d6ca98ab31dc63bb00c",
+      "type": "Instance",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "a6b4906e2f5453108b2f298a6fa4e37c",
+      "target_name": "gako_lab09_home",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_page_e11f9468c0a4499d9ea3771962bfae2d",
+      "type": "Page",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "7ab4906e2f5453108b2f298a6fa4e3a8",
+      "target_name": "LAB09 Service Portal",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_portal_2c0bf7f909364e16927cb72cbbd4a090",
+      "type": "Service Portal",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "e2b4906e2f5453108b2f298a6fa4e35e",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_row_657c1e8f59cb45e595ac8092f076466f",
+      "type": "Row",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "aeb4906e2f5453108b2f298a6fa4e35f",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_row_7e042718b5174ed08731c570c14c0bb7",
+      "type": "Row",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "e6b4906e2f5453108b2f298a6fa4e37a",
+      "target_name": "100",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_row_db34ec029b804d6dbca3a0b101236124",
+      "type": "Row",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "3ab4906e2f5453108b2f298a6fa4e3b6",
+      "target_name": "LAB09 — Service Portal theme",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_theme_daa67a9829e54159b964de395b538acd",
+      "type": "Theme",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "3ab4906e2f5453108b2f298a6fa4e3aa",
+      "target_name": "LAB09 — Knowledge base",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_31a4c937a7d046aa94e65aeb6264fded",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "f6b4906e2f5453108b2f298a6fa4e3ac",
+      "target_name": "LAB09 — Help",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_380db8f00e7b44e6a4a18c811ccd8553",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "76b4906e2f5453108b2f298a6fa4e3b0",
+      "target_name": "LAB09 — Announcements",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_6383fc7e54c04fd1a3d07e4ec3d7d473",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "7eb4906e2f5453108b2f298a6fa4e3b4",
+      "target_name": "LAB09 — Service catalog",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_a43d77f11a6b4f9caad164cf10f60d56",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "f6b4906e2f5453108b2f298a6fa4e3b8",
+      "target_name": "LAB09 — My requests",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_f057ce3e04cd4ba4b2f6b32fe693d689",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "b2b4906e2f5453108b2f298a6fa4e3bb",
+      "target_name": "LAB09 — Welcome and search",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sp_widget_fcad0c3d67b54481b1d5084d4ea5f788",
+      "type": "Widget",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eab4906e2f5453108b2f298a6fa4e34b",
+      "target_name": "GAKO_JoanaCarla Hello World Portal",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_app_d02a2003fd1f4a7698b9995b314584cd",
+      "type": "Custom Application",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "26b4906e2f5453108b2f298a6fa4e382",
+      "target_name": "x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/package.json",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_module_6968217633ae4655bc2ca0442fc99eb3",
+      "type": "EcmaScript Module",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eeb4906e2f5453108b2f298a6fa4e383",
+      "target_name": "x_lab09_hello_worl/lab09-hello-world-portal/0.0.1/bom.json",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_module_d75852940bb249d4ae13bcd7cfc4668f",
+      "type": "EcmaScript Module",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "aeb4906e2f5453108b2f298a6fa4e3a1",
+      "target_name": "x_lab09_hello_worl.midnight.art.drama",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_properties_0163b16ecd794330ac74eaf6239eb8ba",
+      "type": "System Property",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "eab4906e2f5453108b2f298a6fa4e3a0",
+      "target_name": "x_lab09_hello_worl.midnight.art.mystery",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_properties_649187f84e8840fd889da18778bb85b9",
+      "type": "System Property",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2ab4906e2f5453108b2f298a6fa4e39f",
+      "target_name": "x_lab09_hello_worl.midnight.art.hero",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_properties_d50edcf0b85f4ef980978c3009012883",
+      "type": "System Property",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "62b4906e2f5453108b2f298a6fa4e3a3",
+      "target_name": "x_lab09_hello_worl.midnight.art.scifi",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_properties_de421a8aade640048b7df0e8642acddd",
+      "type": "System Property",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "aab4906e2f5453108b2f298a6fa4e385",
+      "target_name": "kb_knowledge",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_scope_privilege_226123922fdc13108b2f298a6fa4e3e4",
+      "type": "Cross scope privilege",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "e2b4906e2f5453108b2f298a6fa4e387",
+      "target_name": "Glide API: properties",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_scope_privilege_2e6123922fdc13108b2f298a6fa4e3d3",
+      "type": "Cross scope privilege",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "2eb4906e2f5453108b2f298a6fa4e388",
+      "target_name": "kb_knowledge_base",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_scope_privilege_3e6123922fdc13108b2f298a6fa4e3f8",
+      "type": "Cross scope privilege",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "62b4906e2f5453108b2f298a6fa4e38b",
+      "target_name": "ScopedGlideElement",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_scope_privilege_626123922fdc13108b2f298a6fa4e3e8",
+      "type": "Cross scope privilege",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    },
+    {
+      "sys_id": "aab4906e2f5453108b2f298a6fa4e38c",
+      "target_name": "GlideRecordSecure.getValue",
+      "application": "d02a2003fd1f4a7698b9995b314584cd",
+      "name": "sys_scope_privilege_f26123922fdc13108b2f298a6fa4e3fd",
+      "type": "Cross scope privilege",
+      "update_set": "82b45c2e2f5453108b2f298a6fa4e34c"
+    }
+  ],
+  "status": "PASS"
+}

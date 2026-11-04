@@ -1,0 +1,16 @@
+<header class="mf-header">
+  <a class="mf-skip" ng-href="{{c.data.homeUrl}}#mf-search">Skip to search</a>
+  <div class="mf-nav-inner">
+    <a class="mf-brand" ng-href="{{c.data.homeUrl}}" aria-label="Lab09 Service Portal home">
+      <img class="mf-logo" ng-src="{{c.data.art.logo}}" alt="" width="46" height="46">
+      <span class="mf-wordmark">LAB09<small>Service Portal</small></span>
+    </a>
+    <button class="mf-menu-toggle" type="button" ng-click="c.menuOpen = !c.menuOpen" aria-controls="mf-primary-nav" aria-expanded="{{!!c.menuOpen}}"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span><span class="sr-only">Toggle navigation</span></button>
+    <nav id="mf-primary-nav" class="mf-nav" ng-class="{'mf-nav-open': c.menuOpen}" aria-label="Main navigation">
+      <a ng-href="{{c.data.homeUrl}}#mf-discover" ng-click="c.menuOpen = false">Services</a>
+      <a ng-href="{{c.data.homeUrl}}#mf-notes" ng-click="c.menuOpen = false">Knowledge</a>
+      <a ng-href="{{c.data.homeUrl}}#mf-backstage" ng-click="c.menuOpen = false">My requests</a>
+      <a class="mf-nav-action" ng-href="{{c.data.homeUrl}}#mf-help" ng-click="c.menuOpen = false"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>Help</a>
+    </nav>
+  </div>
+</header>

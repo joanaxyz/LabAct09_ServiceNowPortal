@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
+import assert from 'node:assert/strict';
+const run=promisify(execFile),exe=path.join(process.env.APPDATA,'npm/node_modules/agent-browser/bin/agent-browser-win32-x64.exe');
+async function browser(...args){const {stdout}=await run(exe,['--session','midnight-live','--json',...args],{windowsHide:true,timeout:45000,maxBuffer:2*1024*1024});const r=JSON.parse(stdout);if(!r.success)throw new Error(r.error);return r.data;}
+const home='https://dev431102.service-now.com/gako_lab09?id=gako_lab09_home';
+await browser('tab','t3');
+const links=(await browser('eval','({catalog:document.querySelector("#mf-discover a").getAttribute("href"),article:document.querySelector(".mf-article").getAttribute("href")})')).result;
+await browser('tab','t1');await browser('open',home);await browser('wait','#mf-query');
+await browser('fill','#mf-query','email');await browser('click','#mf-search button[type="submit"]');await browser('wait','--text','All results for');
+await browser('wait','--fn','document.querySelectorAll("a[href*=kb_article],a[href*=sc_cat_item]").length>0');
+const search=(await browser('eval','({url:location.href,title:document.title,results:document.querySelectorAll("a[href*=kb_article],a[href*=sc_cat_item]").length})')).result;
+assert.ok(search.url.includes('q=email')&&search.results>0);
+await browser('open',new URL(links.catalog,home).href);await browser('wait','--text','Popular Items');
+await browser('wait','--fn','Array.from(document.querySelectorAll("a")).some(a=>a.innerText.includes("Standard Laptop"))');
+const catalog=(await browser('eval','({url:location.href,title:document.title,laptop:Array.from(document.querySelectorAll("a")).find(a=>a.innerText.includes("Standard Laptop")).getAttribute("href")})')).result;
+await browser('open',new URL(catalog.laptop,home).href);await browser('wait','--text','Order Now');
+await browser('wait','--fn','!!document.querySelector("textarea")&&Array.from(document.querySelectorAll("button")).some(b=>b.innerText.trim()==="Order Now")');
+const item=(await browser('eval','({url:location.href,title:document.title,orderNow:Array.from(document.querySelectorAll("button")).some(b=>b.innerText.trim()==="Order Now"),requirements:!!document.querySelector("textarea")})')).result;assert.ok(item.orderNow&&item.requirements);
+await browser('open',new URL(links.article,home).href);await browser('wait','--text','Phishing Explained');
+const article=(await browser('eval','({url:location.href,title:document.title,bodyVisible:document.body.innerText.includes("Phishing scams are typically")})')).result;assert.ok(article.bodyVisible);
+await browser('click','.mf-brand');await browser('wait','#mf-query');
+const returned=(await browser('eval','({url:location.href,containers:document.querySelectorAll(".mf-container-opening,.mf-container-discover,.mf-container-backstage").length})')).result;assert.equal(returned.containers,3);
+const report={checkedAt:new Date().toISOString(),status:'PASS',testedUser:'Authenticated admin',search,catalog,item,article,returnHome:returned,noOrderSubmitted:true};
+await fs.writeFile('docs/validation/native-pages.json',JSON.stringify(report,null,2)+'\n');
+console.log('PASS: native search results, catalog, real order form, knowledge article and branded home navigation. No order submitted.');

@@ -1,0 +1,19 @@
+<section id="mf-help" class="mf-card mf-support" aria-labelledby="mf-support-title">
+  <div class="mf-card-heading"><h2 id="mf-support-title">Help &amp; support</h2></div>
+  <div class="mf-faq">
+    <div class="mf-faq-item">
+      <button type="button" ng-click="c.openFaq = c.openFaq === 1 ? 0 : 1" aria-expanded="{{c.openFaq === 1}}" aria-controls="mf-faq-1">How do I request a service?<span aria-hidden="true">{{c.openFaq === 1 ? '−' : '+'}}</span></button>
+      <p id="mf-faq-1" ng-if="c.openFaq === 1">Open the <a ng-href="{{c.data.helpUrl}}">service catalog</a>, choose a service, and complete its form.</p>
+    </div>
+    <div class="mf-faq-item">
+      <button type="button" ng-click="c.openFaq = c.openFaq === 2 ? 0 : 2" aria-expanded="{{c.openFaq === 2}}" aria-controls="mf-faq-2">Where can I find answers?<span aria-hidden="true">{{c.openFaq === 2 ? '−' : '+'}}</span></button>
+      <p id="mf-faq-2" ng-if="c.openFaq === 2">Use the search above or browse the <a ng-href="{{c.data.knowledgeUrl}}">knowledge base</a>.</p>
+    </div>
+    <div class="mf-faq-item">
+      <button type="button" ng-click="c.openFaq = c.openFaq === 3 ? 0 : 3" aria-expanded="{{c.openFaq === 3}}" aria-controls="mf-faq-3">How do I track a request?<span aria-hidden="true">{{c.openFaq === 3 ? '−' : '+'}}</span></button>
+      <p id="mf-faq-3" ng-if="c.openFaq === 3">Open <a ng-href="{{c.data.requestsUrl}}">My requests</a> to see its status and updates.</p>
+    </div>
+  </div>
+  <div class="mf-support-bottom"><a class="mf-text-link" ng-href="{{c.data.knowledgeUrl}}">Browse help articles <span aria-hidden="true">↗</span></a></div>
+  <footer class="mf-footer"><span class="mf-footer-brand">LABORATORY 09</span><span>Joana Carla Gako</span></footer>
+</section>
